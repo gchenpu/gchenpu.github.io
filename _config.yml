@@ -10,11 +10,11 @@ locale                   : "en-US"
 title                    : "Gang Chen"
 title_separator          : "-"
 name                     : &name "Gang Chen"
-description              : &description "Associate Professor of Atmospheric Science at University of California-Los Angles (UCLA)"
+description              : &description "Associate Professor in the Department of Atmospheric and Oceanic Sciences (AOS) at University of California-Los Angles (UCLA)"
 url                      : https://gchenpu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gchenpu.github.io"
-teaser                   : jet_stream_nasa.jpg # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "jet_stream_nasa.jpg" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
@@ -80,7 +80,7 @@ analytics:
 author:
   name             : "Gang Chen"
   avatar           : "profile.jpg"
-  bio              : "Associate Professor of Atmospheric Science in Dept of Atmospheric and Oceanic Sciences (AOS) at University of California, Los Angles (UCLA)"
+  bio              : "Associate Professor in the Department of Atmospheric and Oceanic Sciences (AOS) at University of California-Los Angles (UCLA)"
   location         : "Los Angeles, California"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=pqYiwgQAAAAJ&hl=en"
@@ -98,7 +98,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            :   https://orcid.org/0000-0003-4934-1909  # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

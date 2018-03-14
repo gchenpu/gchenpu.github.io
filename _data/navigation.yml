@@ -14,9 +14,12 @@ main:
         
 #  - title: "Blog Posts"
 #    url: /year-archive/
-    
+
+  - title: "Group"
+    url: /group/
+            
   - title: "CV"
     url: /cv/
-    
+
 #  - title: "Guide"
 #    url: /markdown/
