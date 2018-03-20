@@ -36,3 +36,19 @@ td {
 tr, td, th {
   vertical-align: middle;
 }
+
+
+/* ==========================================================================
+   TABLES with Fixed Cell Width for biography Photo
+   ========================================================================== */
+
+table.bio-photo {
+    table-layout:fixed;
+    font-size: $type-size-5;
+    border: none;
+    }
+    
+table.bio-photo td {
+    overflow:hidden;
+    border: none;
+    }
