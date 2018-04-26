@@ -1,48 +1,12 @@
 
 # coding: utf-8
 
-# # Publications markdown generator for academicpages
-# 
-# Takes a TSV of publications with metadata and converts them for use with [academicpages.github.io](academicpages.github.io). This is an interactive Jupyter notebook, with the core python code in publications.py. Run either from the `markdown_generator` folder after replacing `publications.tsv` with one that fits your format.
-# 
-# TODO: Make this work with BibTex and other databases of citations, rather than Stuart's non-standard TSV format and citation style.
-# 
-
-# ## Data format
-# 
-# The TSV needs to have the following columns: pub_date, title, venue, excerpt, citation, site_url, and paper_url, with a header at the top. 
-# 
-# - `excerpt` and `paper_url` can be blank, but the others must have values. 
-# - `pub_date` must be formatted as YYYY-MM-DD.
-# - `url_slug` will be the descriptive part of the .md file and the permalink URL for the page about the paper. The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/publications/YYYY-MM-DD-[url_slug]`
-
-
-# ## Import pandas
-# 
-# We are using the very handy pandas library for dataframes.
-
-# In[2]:
-
-import pandas as pd
-
-
-# ## Import TSV
-# 
-# Pandas makes this easy with the read_csv function. We are using a TSV, so we specify the separator as a tab, or `\t`.
-# 
-# I found it important to put this data in a tab-separated values format, because there are a lot of commas in this kind of data and comma-separated values can get messed up. However, you can modify the import statement, as pandas also has read_excel(), read_json(), and others.
-
-# In[3]:
-
-publications = pd.read_csv("publications.tsv", sep="\t", header=0)
-publications
-
-
 # ## Escape special characters
 # 
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
 
-# In[4]:
+# In[5]:
+
 
 html_escape_table = {
     "&": "&amp;",
@@ -55,54 +19,129 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
-# ## Creating the markdown files
+# ## Publications markdown generator
 # 
-# This is where the heavy lifting is done. This loops through all the rows in the TSV dataframe, then starts to concatentate a big string (```md```) that contains the markdown for each type. It does the YAML metadata first, then does the description for the individual page. If you don't want something to appear (like the "Recommended citation")
+# Takes a list of publications in .bib format and converts them for use. This is an interactive Jupyter notebook. The core python code is also in `publications.py`. Run either from the `markdown_generator` folder after replacing `publications.bib` with one containing your data.
 
-# In[5]:
+# In[9]:
+
 
 import os
-for row, item in publications.iterrows():
+import calendar
+from pybtex.database import parse_file
+
+bib_data = parse_file('publications.bib')
+#print(bib_data)
+
+for entry in bib_data.entries:
+# create the name of each md file
+    year  = bib_data.entries[entry].fields['year']
+    if 'month' in bib_data.entries[entry].fields:
+        month = list(calendar.month_abbr).index(bib_data.entries[entry].fields['month'].capitalize())
+    else:
+        month = 1
+    pub_date = str(year) + "-" + str(month) + "-" + "1"
     
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
-    year = item.pub_date[:4]
+    md_filename   = pub_date + "-" + entry + ".md"
+    html_filename = pub_date + "-" + entry
+    #print(md_filename)
     
-    ## YAML variables
+# cp pdf files to ../files and set up the link
+    if 'file' in bib_data.entries[entry].fields:
+        path = '/mnt/c' + bib_data.entries[entry].fields['file'][15:-4]
+        path = path.replace(" ",    "\ ")
+        path = path.replace("{\_}", "\_")
+        os.system("cp " + path + " ../files")
+        download_filename = '/files/' + os.path.basename(path).replace("\\", "")
+    else:
+        download_filename = ''
+    #print(download_filename)
+
+# set up author names
+    num_author=len(bib_data.entries[entry].persons['author'])
+    for count, author in enumerate(bib_data.entries[entry].persons['author']):
+        if count == 0:
+            author_list = author.last_names[0] + ", "
+            for cc, first in enumerate(author.bibtex_first_names):
+                if cc <len(author.bibtex_first_names)-1:
+                    author_list += first + " "
+                else:
+                    author_list += first
+        elif count < num_author-1:
+            author_list += ", " 
+            for cc, first in enumerate(author.bibtex_first_names):
+                if cc <len(author.bibtex_first_names)-1:
+                    author_list += first + " "
+                else:
+                    author_list += first
+            author_list += " " + author.last_names[0]
+        else:
+            author_list += " and " 
+            for cc, first in enumerate(author.bibtex_first_names):
+                if cc <len(author.bibtex_first_names)-1:
+                    author_list += first + " "
+                else:
+                    author_list += first
+            author_list += " " + author.last_names[0]
+        author_list = author_list.replace("{","")
+        author_list = author_list.replace("}","")
+    #print(author_list)
+
+# set up the citation for the publishing journal
+    journal = bib_data.entries[entry].fields['journal']
+    cit_journal = "<i>" + journal + "</i>"
+    if 'volume' in bib_data.entries[entry].fields:
+        cit_journal += ", " + bib_data.entries[entry].fields['volume']
+    if 'pages' in bib_data.entries[entry].fields:
+        cit_journal += ", " + bib_data.entries[entry].fields['pages']
+    if 'doi' in bib_data.entries[entry].fields:
+        cit_journal +=  ", doi:" + bib_data.entries[entry].fields['doi']
+    cit_journal += "."
+#    print(cit_journal)
+
+    title    = html_escape(bib_data.entries[entry].fields['title'][1:-1])
+    paper_url = bib_data.entries[entry].fields['url']
+    citation = html_escape(author_list + ", " + str(year) + ": " + title + ", " + cit_journal)
     
-    md = "---\ntitle: \""   + item.title + '"\n'
+    if 'abstract' in bib_data.entries[entry].fields: 
+        excerpt = bib_data.entries[entry].fields['abstract']
+    else: 
+        excerpt = ""
+        
+## YAML variables
+    
+    md = "---\ntitle: \"" + title + '"\n'
     
     md += """collection: publications"""
     
     md += """\npermalink: /publication/""" + html_filename
+
+    md += "\nyear: " + str(year) 
+
+    md += "\nauthor: " + str(author_list) 
+
+    md += "\nvenue: '" + journal + "'"
     
-    if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+    md += "\nvenue_cit: '" + cit_journal + "'"
     
-    md += "\ndate: " + str(item.pub_date) 
+#    md += "\npaperurl: '" + paper_url + "'"
     
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
-    
-    if len(str(item.paper_url)) > 5:
-        md += "\npaperurl: '" + item.paper_url + "'"
-    
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    md += "\ncitation: '" + citation + "'"
     
     md += "\n---"
     
     ## Markdown description for individual page
+    excerpt = excerpt.replace("Abstract", "ABSTRACT:\n")
+    if len(str(excerpt)) > 5:
+        md += "\n" + html_escape(excerpt) + "\n"
     
-    if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Download paper here</a>\n" 
+    if len(str(paper_url)) > 5:
+        md += "\nDownload paper: [here](" + download_filename + ") and [journal website](" + paper_url + ")\n" 
         
-    if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
-        
-    md += "\nRecommended citation: " + item.citation
-    
     md_filename = os.path.basename(md_filename)
-       
+
     with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
-
+    print(md)
+    
 

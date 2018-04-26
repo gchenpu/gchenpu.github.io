@@ -21,7 +21,7 @@ Recent Publications
 ======
 <ul>
     {% assign sorted = (site.publications | sort: 'date') | reverse %}
-    {% for post in sorted limit:4 %}
+    {% for post in sorted limit:5 %}
         {% include archive-single-publication.html %}
     {% endfor %}
 </ul>
