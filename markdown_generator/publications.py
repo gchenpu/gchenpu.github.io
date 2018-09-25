@@ -5,7 +5,7 @@
 # 
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
 
-# In[5]:
+# In[1]:
 
 
 html_escape_table = {
@@ -22,8 +22,10 @@ def html_escape(text):
 # ## Publications markdown generator
 # 
 # Takes a list of publications in .bib format and converts them for use. This is an interactive Jupyter notebook. The core python code is also in `publications.py`. Run either from the `markdown_generator` folder after replacing `publications.bib` with one containing your data.
+# 1. PDF files will be copied to the folder ./files
+# 2. Journal entries will be saved in the folder ./_publications
 
-# In[9]:
+# In[4]:
 
 
 import os
@@ -39,7 +41,7 @@ for entry in bib_data.entries:
     if 'month' in bib_data.entries[entry].fields:
         month = list(calendar.month_abbr).index(bib_data.entries[entry].fields['month'].capitalize())
     else:
-        month = 1
+        month = 12                                      # no month information is found
     pub_date = str(year) + "-" + str(month) + "-" + "1"
     
     md_filename   = pub_date + "-" + entry + ".md"
@@ -142,6 +144,18 @@ for entry in bib_data.entries:
 
     with open("../_publications/" + md_filename, 'w') as f:
         f.write(md)
-    print(md)
+#    print(md)
+
+print('Total number of publications: '+str(len(bib_data.entries)))
     
+
+
+# ## Other entries
+# copy other entries manually to the folders ./files and ./publications
+
+# In[3]:
+
+
+os.system("cp thesis.pdf ../files")
+os.system("cp 2007-7-1-Chen2007.md ../_publications")
 
