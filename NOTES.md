@@ -4,6 +4,9 @@
 # Steps to run the the website
 1. run the script 'bundle exec jekyll serve'
 
+The website is
+http://127.0.0.1:4000/
+
 # Steps to revise the website
 modify the files in ./_pages
 
