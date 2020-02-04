@@ -14,6 +14,7 @@ modify the files in ./_pages
 1. manually update 'publications.bib' in the folder 'markdown_generator'
 2. start jupyter note: 'jupyter notebook --no-browser --port=8889'
 3. run the script: 'publications.ipynb'
+4. alternative to steps 2-3, execute the script: 'python publications.py'
 
 #----------------------------------
 #          Markdown language

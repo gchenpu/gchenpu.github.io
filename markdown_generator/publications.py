@@ -1,11 +1,11 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
 # ## Escape special characters
 # 
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
 
-# In[1]:
+# In[2]:
 
 
 html_escape_table = {
@@ -22,14 +22,15 @@ def html_escape(text):
 # ## Publications markdown generator
 # 
 # Takes a list of publications in .bib format and converts them for use. This is an interactive Jupyter notebook. The core python code is also in `publications.py`. Run either from the `markdown_generator` folder after replacing `publications.bib` with one containing your data.
-# 1. PDF files will be copied to the folder ./files
+# 1. PDF files will be copied to the folder ./files -removed shared pdfs for copyright reason
 # 2. Journal entries will be saved in the folder ./_publications
 
-# In[4]:
+# In[5]:
 
 
 import os
 import calendar
+from datetime import datetime
 from pybtex.database import parse_file
 
 bib_data = parse_file('publications.bib')
@@ -41,7 +42,9 @@ for entry in bib_data.entries:
     if 'month' in bib_data.entries[entry].fields:
         month = list(calendar.month_abbr).index(bib_data.entries[entry].fields['month'].capitalize())
     else:
-        month = 12                                      # no month information is found
+        print('no month information is found for '+entry)
+        month = datetime.now().month                # use current month if no month information is found
+        print('use the current month: '+str(month))
     pub_date = str(year) + "-" + str(month) + "-" + "1"
     
     md_filename   = pub_date + "-" + entry + ".md"
@@ -49,15 +52,15 @@ for entry in bib_data.entries:
     #print(md_filename)
     
 # cp pdf files to ../files and set up the link
-    if 'file' in bib_data.entries[entry].fields:
-        path = '/mnt/c' + bib_data.entries[entry].fields['file'][15:-4]
-        path = path.replace(" ",    "\ ")
-        path = path.replace("{\_}", "\_")
-        os.system("cp " + path + " ../files")
-        download_filename = '/files/' + os.path.basename(path).replace("\\", "")
-    else:
-        download_filename = ''
-    #print(download_filename)
+#    if 'file' in bib_data.entries[entry].fields:
+#        path = '/mnt/c' + bib_data.entries[entry].fields['file'][15:-4]
+#        path = path.replace(" ",    "\ ")
+#        path = path.replace("{\_}", "\_")
+#        os.system("cp " + path + " ../files")
+#        download_filename = '/files/' + os.path.basename(path).replace("\\", "")
+#    else:
+#        download_filename = ''
+#    #print(download_filename)
 
 # set up author names
     num_author=len(bib_data.entries[entry].persons['author'])
@@ -138,8 +141,8 @@ for entry in bib_data.entries:
         md += "\n" + html_escape(excerpt) + "\n"
     
     if len(str(paper_url)) > 5:
-        md += "\nDownload paper: [here](" + download_filename + ") and [journal website](" + paper_url + ")\n" 
-        
+#        md += "\nDownload paper: [here](" + download_filename + ") and [journal website](" + paper_url + ")\n" 
+         md += "\nDownload paper: [journal website](" + paper_url + ")\n"        
     md_filename = os.path.basename(md_filename)
 
     with open("../_publications/" + md_filename, 'w') as f:
@@ -153,9 +156,18 @@ print('Total number of publications: '+str(len(bib_data.entries)))
 # ## Other entries
 # copy other entries manually to the folders ./files and ./publications
 
-# In[3]:
+# In[6]:
 
 
 os.system("cp thesis.pdf ../files")
 os.system("cp 2007-7-1-Chen2007.md ../_publications")
+
+
+# ## Tests
+# tests of temporary scripts
+
+# In[ ]:
+
+
+
 
