@@ -7,8 +7,11 @@
 The website is
 http://127.0.0.1:4000/
 
-# Steps to revise the website
+# Steps to revise the website pages
 modify the files in ./_pages
+
+# Add a new page to the website
+add the new page to ./_data/navigation.yml
 
 # Steps to update the publications for the website:
 1. manually update 'publications.bib' in the folder 'markdown_generator'
