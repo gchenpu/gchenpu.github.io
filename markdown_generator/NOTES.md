@@ -4,20 +4,21 @@
 # Steps to run the the website
 1. run the script 'bundle exec jekyll serve'
 
-The website is
+The website is viewed at the url
 http://127.0.0.1:4000/
-
-# Steps to revise the website pages
-modify the files in ./_pages
 
 # Add a new page to the website
 add the new page to ./_data/navigation.yml
 
+# Steps to revise the website pages
+modify the files in ./_pages
+Group: group.html
+Publication: see the instructions below
+
 # Steps to update the publications for the website:
-1. manually update 'publications.bib' in the folder 'markdown_generator'
+1. manually update 'publications.bib' in the folder 'markdown_generator' (add Abstract to previous entries if time permits)
 2. start jupyter note: 'jupyter notebook --no-browser --port=8889'
 3. run the script: 'publications.ipynb'
-4. alternative to steps 2-3, execute the script: 'python publications.py'
 
 #----------------------------------
 #          Markdown language
