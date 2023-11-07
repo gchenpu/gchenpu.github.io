@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,49 +11,13 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Princeton University, Atmospheric and Oceanic Sciences Program, Ph.D., 2002-2007
+* Peking University, Dept. of Atmospheric Science, B.S., 1998-2002
 
-Work experience
+Work Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* UCLA, Dept. of Atmospheric and Oceanic Sciences, Professor, 2019-present
+* UCLA, Dept. of Atmospheric and Oceanic Sciences, Associate Professor, 2016-2019
+* Cornell University, Dept. of Earth and Atmospheric Sciences, Associate Professor, 2015-2016
+* Cornell University, Dept. of Earth and Atmospheric Sciences, Assistant Professor, 2009-2015
+* MIT, Program in Atmospheres, Oceans and Climate, NOAA C&GC Postdoctoral Fellow, 2007-2009
