@@ -1,6 +1,6 @@
 import numpy as np
 
-def tracer_eq_1var_2d_local4(lon, lat, lonb, latb, q_tracer, sort_ascend=None):
+def tracer_eq_1var_2d_local4(lon, lat, lonb, latb, q_tracer, sort_direct='ascend'):
     """ 
     Hybrid Modified Lagrangian-Mean (MLM) and Eulerian diagnostics;
     both Eulerian and Lagrangian variables are output at the input latitudinal grids
@@ -8,8 +8,8 @@ def tracer_eq_1var_2d_local4(lon, lat, lonb, latb, q_tracer, sort_ascend=None):
     input variables: lon, lat   : grid box centers (degrees)
                      lonb, latb : grid box boundaries (degrees) 
                      q_tracer   : 2d tracer, stored in the format of q_tracer(lon,lat)
-                     sort_ascend: the direction of sorting q_tracer, default='ascend'
-                     note: the direction of lat and latb is assumed to increase with the lat/latb index
+                     sort_direct: the direction of sorting q_tracer. default='ascend'; set 'ascend' for PV, 'descend' for Z500 in the NH, and 'descend' for Z500 in the SH.
+                     NOTE: the direction of lat and latb is assumed to increase with the lat/latb index.
 
     output variables: qz: Eulerian-mean q
                       Qe: Lagrangian-mean Q
@@ -22,9 +22,6 @@ def tracer_eq_1var_2d_local4(lon, lat, lonb, latb, q_tracer, sort_ascend=None):
     """
 
     RADIUS = 6.371e6
-
-    if sort_ascend is None:
-        sort_ascend = 'ascend'
 
     lon = np.squeeze(lon)
     lonb = np.squeeze(lonb)
@@ -69,10 +66,12 @@ def tracer_eq_1var_2d_local4(lon, lat, lonb, latb, q_tracer, sort_ascend=None):
     id1 = np.reshape(id, num_point, order='F')
     jd1 = np.reshape(jd, num_point, order='F')
 
-    if sort_ascend == 'ascend':
+    if sort_direct == 'ascend':
         q_pos = np.argsort(q1, kind='stable')
-    else:
+    elif sort_direct == 'descend':
         q_pos = np.argsort(q1, kind='stable')[::-1]
+    else:
+        raise Exception('`sort_direct` should be either `ascend` or `descend`')
     q_sort = q1[q_pos]
     dM1_sort = dM1[q_pos]
     id1_sort = id1[q_pos]
