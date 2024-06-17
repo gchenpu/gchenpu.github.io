@@ -8,7 +8,7 @@ def tracer_eq_1var_2d_local4(lon, lat, lonb, latb, q_tracer, sort_direct='ascend
     input variables: lon, lat   : grid box centers (degrees)
                      lonb, latb : grid box boundaries (degrees) 
                      q_tracer   : 2d tracer, stored in the format of q_tracer(lon,lat)
-                     sort_direct: the direction of sorting q_tracer. default='ascend'; set 'ascend' for PV, 'descend' for Z500 in the NH, and 'descend' for Z500 in the SH.
+                     sort_direct: the direction of sorting q_tracer. default='ascend'; set 'ascend' for PV (values roughly increase with latitude), and 'descend' for Z500 in the NH (values roughly descrease with latitude).
                      NOTE: the direction of lat and latb is assumed to increase with the lat/latb index.
 
     output variables: qz: Eulerian-mean q

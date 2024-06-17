@@ -12,7 +12,7 @@ function [qz, Qe, Ae, dQedY, AeL, AeLp, AeLm]=tracer_eq_1var_2d_local3(lon, lat,
 % input variables: lon, lat   : grid box centers (degrees)
 %                  lonb, latb : grid box boundaries (degrees) 
 %                  q_tracer   : 2d tracer, stored in the format of q_tracer(lon,lat)
-%                  sort_ascend: the direction of sorting q_tracer, default='ascend'
+%                  sort_ascend: the direction of sorting q_tracer, default='ascend'; set 'ascend' for PV (values roughly increase with latitude), and 'descend' for Z500 in the NH (values roughly descrease with latitude).
 %                  note： the direction of lat and latb is assumed to increase with the lat/latb index
 %
 % output variables: qz: Eulerian-mean q
