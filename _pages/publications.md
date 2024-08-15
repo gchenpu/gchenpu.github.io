@@ -9,8 +9,8 @@ author_profile: true
 
 Publications
 ======
-<ul>
+<ol>
     {% for post in site.publications reversed %}
         {% include archive-single-publication.html %}
     {% endfor %}
-</ul>
+</ol>
