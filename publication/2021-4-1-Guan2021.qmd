@@ -1,0 +1,58 @@
+---
+title: Pacific sea surface temperature anomalies as important boundary forcing in
+  driving the interannual Warm Arctic-Cold Continent pattern over the North American
+  sector
+pagetitle: 2021-4-1-Guan2021 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2021
+author: Weina Guan, Xianan Jiang, Xuejuan Ren, Gang Chen and Qinghua Ding
+venue: Journal of Climate
+venue_cit: <i>Journal of Climate</i>, 1--43, doi:10.1175/JCLI-D-20-0867.1.
+recommended_citation: 'Weina Guan, Xianan Jiang, Xuejuan Ren, Gang Chen and Qinghua
+  Ding, 2021: Pacific sea surface temperature anomalies as important boundary forcing
+  in driving the interannual Warm Arctic-Cold Continent pattern over the North American
+  sector, <i>Journal of Climate</i>, 1--43, doi:10.1175/JCLI-D-20-0867.1.'
+paper_url: https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0867.1/JCLI-D-20-0867.1.xml
+abstract: The leading interannual mode of winter surface air temperature over the
+  North American (NA) sector, characterized by a “Warm Arctic, Cold Continents” (WACC)
+  pattern, exerts pronounced influences on NA weather and climate, while its underlying
+  mechanisms remain elusive. In this study, the relative roles of surface boundary
+  forcing versus internal atmospheric processes for the formation of the WACC pattern
+  are quantitatively investigated using a combined analysis of observations and large-ensemble
+  atmospheric global climate model simulations. Internal atmospheric variability is
+  found to play an important role in shaping the year-to-year WACC variability, contributing
+  to about half of the total variance. An anomalous SST pattern resembling the North
+  Pacific Mode is identified as a major surface boundary forcing pattern in driving
+  the interannual WACC variability over the NA sector, with a minor contribution from
+  sea ice variability over the Chukchi- Bering Seas. Findings from this study not
+  only lead to improved understanding of underlying physics regulating the interannual
+  WACC variability, but also provide important guidance for improved modeling and
+  prediction of regional climate variability over NA and the Arctic region.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Pacific sea surface temperature anomalies as important boundary forcing in driving the interannual Warm Arctic-Cold Continent pattern over the North American sector
+
+*Published in Journal of Climate, 2021*
+
+**Recommended citation:** Weina Guan, Xianan Jiang, Xuejuan Ren, Gang Chen and Qinghua Ding, 2021: Pacific sea surface temperature anomalies as important boundary forcing in driving the interannual Warm Arctic-Cold Continent pattern over the North American sector, <i>Journal of Climate</i>, 1--43, doi:10.1175/JCLI-D-20-0867.1.
+
+## Abstract
+
+The leading interannual mode of winter surface air temperature over the North American (NA) sector, characterized by a “Warm Arctic, Cold Continents” (WACC) pattern, exerts pronounced influences on NA weather and climate, while its underlying mechanisms remain elusive. In this study, the relative roles of surface boundary forcing versus internal atmospheric processes for the formation of the WACC pattern are quantitatively investigated using a combined analysis of observations and large-ensemble atmospheric global climate model simulations. Internal atmospheric variability is found to play an important role in shaping the year-to-year WACC variability, contributing to about half of the total variance. An anomalous SST pattern resembling the North Pacific Mode is identified as a major surface boundary forcing pattern in driving the interannual WACC variability over the NA sector, with a minor contribution from sea ice variability over the Chukchi- Bering Seas. Findings from this study not only lead to improved understanding of underlying physics regulating the interannual WACC variability, but also provide important guidance for improved modeling and prediction of regional climate variability over NA and the Arctic region.
+
+[Download paper](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0867.1/JCLI-D-20-0867.1.xml){target="_blank"}
+
+:::
+
+:::

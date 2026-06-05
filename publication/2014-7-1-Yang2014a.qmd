@@ -1,0 +1,53 @@
+---
+title: Sensitivities of the Lower-Stratospheric Transport and Mixing to Tropical SST
+  Heating
+pagetitle: 2014-7-1-Yang2014a - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2014
+author: Huang Yang, Gang Chen and Daniela I.V. V. Domeisen
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, 71, 2674--2694, doi:10.1175/JAS-D-13-0276.1.
+recommended_citation: 'Huang Yang, Gang Chen and Daniela I.V. V. Domeisen, 2014: Sensitivities
+  of the Lower-Stratospheric Transport and Mixing to Tropical SST Heating, <i>Journal
+  of the Atmospheric Sciences</i>, 71, 2674--2694, doi:10.1175/JAS-D-13-0276.1.'
+paper_url: http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-13-0276.1
+abstract: The sensitivities of the Brewer-Dobson Circulation (BDC) to different distributions
+  of tropical SST heating are investigated in an idealized aqua-planet model. It is
+  found that an increase in tropical SSTs generally leads to an acceleration of tropical
+  upwelling and an associated reduction in the Age of Air (AOA) in the polar stratosphere,
+  and that the AOA near the subtropical tropopause is correlated with local isentropic
+  mixing of tropospheric air with stratospheric air.The zonal distribution of SST
+  perturbations has a major impact on the vertical and meridional structure of the
+  BDC as compared with other SST characteristics. Zonally localized SST heatings tend
+  to generate a shallow acceleration of the stratospheric residual circulation, enhanced
+  isentropic mixing associated with a weakened stratospheric jet, and a reduction
+  in AOA mostly within the polar vortex. Contrarily, SST heatings with a zonally symmetric
+  structure tend to produce a deep strengthening of the stratospheric residual circula...
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Sensitivities of the Lower-Stratospheric Transport and Mixing to Tropical SST Heating
+
+*Published in Journal of the Atmospheric Sciences, 2014*
+
+**Recommended citation:** Huang Yang, Gang Chen and Daniela I.V. V. Domeisen, 2014: Sensitivities of the Lower-Stratospheric Transport and Mixing to Tropical SST Heating, <i>Journal of the Atmospheric Sciences</i>, 71, 2674--2694, doi:10.1175/JAS-D-13-0276.1.
+
+## Abstract
+
+The sensitivities of the Brewer-Dobson Circulation (BDC) to different distributions of tropical SST heating are investigated in an idealized aqua-planet model. It is found that an increase in tropical SSTs generally leads to an acceleration of tropical upwelling and an associated reduction in the Age of Air (AOA) in the polar stratosphere, and that the AOA near the subtropical tropopause is correlated with local isentropic mixing of tropospheric air with stratospheric air.The zonal distribution of SST perturbations has a major impact on the vertical and meridional structure of the BDC as compared with other SST characteristics. Zonally localized SST heatings tend to generate a shallow acceleration of the stratospheric residual circulation, enhanced isentropic mixing associated with a weakened stratospheric jet, and a reduction in AOA mostly within the polar vortex. Contrarily, SST heatings with a zonally symmetric structure tend to produce a deep strengthening of the stratospheric residual circula...
+
+[Download paper](http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-13-0276.1){target="_blank"}
+
+:::
+
+:::

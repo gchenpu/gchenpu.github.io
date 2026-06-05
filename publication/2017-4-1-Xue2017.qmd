@@ -1,0 +1,37 @@
+---
+title: Local increase of anticyclonic wave activity over northern Eurasia under amplified
+  Arctic warming
+pagetitle: 2017-4-1-Xue2017 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2017
+author: Daokai Xue, Jian Lu, Lantao Sun, Gang Chen and Yaocun Zhang
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 44, 3299--3308, doi:10.1002/2017GL072649.
+recommended_citation: 'Daokai Xue, Jian Lu, Lantao Sun, Gang Chen and Yaocun Zhang,
+  2017: Local increase of anticyclonic wave activity over northern Eurasia under amplified
+  Arctic warming, <i>Geophysical Research Letters</i>, 44, 3299--3308, doi:10.1002/2017GL072649.'
+paper_url: http://doi.wiley.com/10.1002/2017GL072649
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Local increase of anticyclonic wave activity over northern Eurasia under amplified Arctic warming
+
+*Published in Geophysical Research Letters, 2017*
+
+**Recommended citation:** Daokai Xue, Jian Lu, Lantao Sun, Gang Chen and Yaocun Zhang, 2017: Local increase of anticyclonic wave activity over northern Eurasia under amplified Arctic warming, <i>Geophysical Research Letters</i>, 44, 3299--3308, doi:10.1002/2017GL072649.
+
+[Download paper](http://doi.wiley.com/10.1002/2017GL072649){target="_blank"}
+
+:::
+
+:::

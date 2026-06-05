@@ -1,0 +1,100 @@
+---
+# title: "Publications"
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+## Publications
+
+```{python}
+#| echo: false
+#| output: asis
+import os, re, yaml
+from html import unescape
+
+pub_dir = "./publication"
+
+def parse_pub(fname):
+    with open(os.path.join(pub_dir, fname)) as f:
+        content = f.read()
+    m = re.match(r'^---\n(.*?)\n---\n?(.*)', content, re.DOTALL)
+    if not m:
+        return None
+    fm = yaml.safe_load(m.group(1))
+    fm['_fname'] = fname
+    return fm
+
+pubs = []
+for fname in os.listdir(pub_dir):
+    if fname.endswith('.qmd'):
+        p = parse_pub(fname)
+        if p:
+            parts = fname.split('-')
+            try:
+                p['_month'] = int(parts[1])
+                p['_day'] = int(parts[2])
+            except (IndexError, ValueError):
+                p['_month'] = 0
+                p['_day'] = 0
+            pubs.append(p)
+
+pubs.sort(key=lambda x: (int(x.get('year', 0)), x.get('_month', 0), x.get('_day', 0)), reverse=True)
+
+theses = [p for p in pubs if re.search(r'thesis', p.get('venue', ''), re.IGNORECASE)]
+journals = [p for p in pubs if not re.search(r'thesis', p.get('venue', ''), re.IGNORECASE)]
+
+from collections import defaultdict
+by_year = defaultdict(list)
+for pub in journals:
+    by_year[int(pub.get('year', 0))].append(pub)
+
+counter = 1
+for year in sorted(by_year.keys(), reverse=True):
+    year_pubs = by_year[year]
+    print(f'<h3>{year}</h3>')
+    print(f'<ol start="{counter}" style="padding-left:1.5rem;">')
+    for pub in year_pubs:
+        cit = unescape(pub.get('recommended_citation', pub.get('citation', pub.get('title', ''))))
+        title = unescape(pub.get('title', ''))
+        slug = pub.get('_fname', '').replace('.qmd', '')
+        url = f'publication/{slug}.html' if slug else ''
+
+        if url and title:
+            cit_html = cit.replace(title, f'<a href="{url}" target="_blank" rel="noopener">{title}</a>', 1)
+        else:
+            cit_html = cit
+
+        print('<li style="padding:0.4rem 0;border-bottom:1px solid #eee;">')
+        print(f'<div class="pub-citation">{cit_html}</div>')
+        print('</li>')
+        counter += 1
+    print('</ol>')
+
+# PhD Thesis section
+if theses:
+    print('<h3>PhD Thesis</h3>')
+    print('<ul style="padding-left:0;list-style:none;">')
+    for pub in theses:
+        cit = unescape(pub.get('recommended_citation', pub.get('citation', pub.get('title', ''))))
+        title = unescape(pub.get('title', ''))
+        slug = pub.get('_fname', '').replace('.qmd', '')
+        url = f'publication/{slug}.html' if slug else ''
+        if url and title:
+            cit_html = cit.replace(title, f'<a href="{url}" target="_blank" rel="noopener">{title}</a>', 1)
+        else:
+            cit_html = cit
+        print('<li style="padding:0.4rem 0;border-bottom:1px solid #eee;">')
+        print(f'<div class="pub-citation">{cit_html}</div>')
+        print('</li>')
+    print('</ul>')
+```
+
+:::
+
+:::

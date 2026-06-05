@@ -1,0 +1,107 @@
+---
+# title: "Group"
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+## Current Group Members
+
+<div class="bio-row">
+<img src="images/Gang Chen_03.jpg" class="bio-avatar" alt="Gang Chen">
+<div class="bio-text">
+<strong>Gang Chen</strong>
+<br>Professor
+<br>Math Sciences Building 7149
+<br>gchenpu at atmos dot ucla dot edu
+<br>(310) 206-9956
+</div>
+</div>
+
+<div class="bio-row">
+<img src="images/XDing.jpg" class="bio-avatar" alt="Xiuyuan Ding">
+<div class="bio-text">
+<strong>Xiuyuan Ding</strong>
+<br>Postdoc
+</div>
+</div>
+
+<div class="bio-row">
+<img src="images/Melody Lu.jpg" class="bio-avatar" alt="Kezhou Lu">
+<div class="bio-text">
+<strong>Kezhou Lu (Melody)</strong>
+<br>Postdoc
+</div>
+</div>
+
+<div class="bio-row">
+<img src="images/profile.png" class="bio-avatar" alt="Anna Coomans">
+<div class="bio-text">
+<strong>Anna Coomans</strong>
+<br>Master Student
+</div>
+</div>
+
+<div class="bio-row">
+<img src="images/profile.png" class="bio-avatar" alt="Undergraduate Students">
+<div class="bio-text">
+<strong>Jason Ge, Siofra Linden, Tyler Do</strong>
+<br>Undergraduate Students
+</div>
+</div>
+
+---
+
+## Former Group Members
+
+### Postdocs
+
+- Pengfei Zhang (Assistant Research Professor, Penn State Univ)
+- Marianna Linz (Assistant Professor, Harvard)
+- Jesse Norris (Project Scientist, UCLA)
+- Chengji Liu (Software engineer, Google)
+- Patrick Martineau (Researcher, JAMSTEC: Japan Agency for Marine-Earth Science and Technology)
+- Daniela Domeisen (Associate Professor at University of Lausanne, Switzerland)
+- Lantao Sun (Research Scientist, Colorado State Univ)
+
+### PhD Students
+
+- Bowen Ge (CMA)
+- Xiuyuan Ding (Postdoc, UCLA)
+- Weiming Ma (Postdoc, PNNL)
+- D. Alex Burrows (RedLine, working with NOAA/NCEP)
+- Huang Yang (Data Scientist, TikTok)
+
+### Master Students
+
+- Shujun Zhou (co-advising with Yu Gu) (PhD student at U Maryland)
+- Zhan Shi (PhD student at UC Davis)
+
+### Selected Visiting Scholars or Students
+
+- Jezabel Curbelo (Now at Universitat Politècnica de Catalunya, Departament de Matemàtiques)
+- Yuexiang Sun (Graduate Student from Peking Univ)
+
+### Selected Undergraduate Advisees
+
+- Emilio Yanez (Graduate Student, UCSD)
+- Noah Alviz ([National Weather Service Meteorologist](https://www.linkedin.com/in/noahalviz/))
+- Jiyang (Iris) Du (Graduate Student, U of Cambridge)
+- Jing Wang (Graduate Student, Princeton)
+- Boer Zhang (Graduate Student, Harvard)
+- Ziwei Wang (Graduate Student, U Chicago)
+- Zeyuan Hu (Graduate Student, Harvard)
+- Elisa Raffa ([TV Meteorologist](https://www.facebook.com/MeteorologistElisaRaffa/))
+- Zack Labe (Graduate Student, UC Irvine)
+- Gaige Kerr (Graduate Student, Johns Hopkins Univ.)
+- Aaron Match (Graduate Student, Princeton)
+- Noah Singer (Graduate Student, USC)
+
+:::
+
+:::

@@ -1,0 +1,37 @@
+---
+title: 'Phase Speed Spectra and the Latitude of Surface Westerlies: Interannual Variability
+  and Global Warming Trend'
+pagetitle: 2008-11-1-Chen2008 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2008
+author: Gang Chen, Jian Lu and Dargan M. W. Frierson
+venue: Journal of Climate
+venue_cit: <i>Journal of Climate</i>, 21, 5942--5959, doi:10.1175/2008JCLI2306.1.
+recommended_citation: 'Gang Chen, Jian Lu and Dargan M. W. Frierson, 2008: Phase Speed
+  Spectra and the Latitude of Surface Westerlies: Interannual Variability and Global
+  Warming Trend, <i>Journal of Climate</i>, 21, 5942--5959, doi:10.1175/2008JCLI2306.1.'
+paper_url: http://journals.ametsoc.org/doi/abs/10.1175/2008JCLI2306.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Phase Speed Spectra and the Latitude of Surface Westerlies: Interannual Variability and Global Warming Trend
+
+*Published in Journal of Climate, 2008*
+
+**Recommended citation:** Gang Chen, Jian Lu and Dargan M. W. Frierson, 2008: Phase Speed Spectra and the Latitude of Surface Westerlies: Interannual Variability and Global Warming Trend, <i>Journal of Climate</i>, 21, 5942--5959, doi:10.1175/2008JCLI2306.1.
+
+[Download paper](http://journals.ametsoc.org/doi/abs/10.1175/2008JCLI2306.1){target="_blank"}
+
+:::
+
+:::

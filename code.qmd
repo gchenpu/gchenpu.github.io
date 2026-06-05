@@ -1,0 +1,23 @@
+---
+# title: "Code"
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+## Various Codes developed in research
+
+- [**Rossby wave activity**](files/LWA/readme.md) — diagnosing the large-scale wavy patterns and eddy mixing of quasi-conservative quantities in the atmosphere (used for potential vorticity, Z500, column water vapor, etc.)
+
+- [**Space-time co-spectra of wave perturbations**](files/co-spectra/readme.md) — diagnosing the eddy characteristics of Rossby waves such as eddy momentum fluxes and heat fluxes
+
+- [**Idealized Spectral Atmospheric Models**](https://github.com/gchenpu/idealized) — Various modified versions of GFDL Idealized Spectral Atmospheric Models (detailed documentation to be added)
+
+:::
+
+:::

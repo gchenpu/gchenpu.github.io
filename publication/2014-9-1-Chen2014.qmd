@@ -1,0 +1,36 @@
+---
+title: Effective Isentropic Diffusivity of Tropospheric Transport
+pagetitle: 2014-9-1-Chen2014 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2014
+author: Gang Chen and R. Alan Plumb
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, 71, 3499--3520, doi:10.1175/JAS-D-13-0333.1.
+recommended_citation: 'Gang Chen and R. Alan Plumb, 2014: Effective Isentropic Diffusivity
+  of Tropospheric Transport, <i>Journal of the Atmospheric Sciences</i>, 71, 3499--3520,
+  doi:10.1175/JAS-D-13-0333.1.'
+paper_url: http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-13-0333.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Effective Isentropic Diffusivity of Tropospheric Transport
+
+*Published in Journal of the Atmospheric Sciences, 2014*
+
+**Recommended citation:** Gang Chen and R. Alan Plumb, 2014: Effective Isentropic Diffusivity of Tropospheric Transport, <i>Journal of the Atmospheric Sciences</i>, 71, 3499--3520, doi:10.1175/JAS-D-13-0333.1.
+
+[Download paper](http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-13-0333.1){target="_blank"}
+
+:::
+
+:::

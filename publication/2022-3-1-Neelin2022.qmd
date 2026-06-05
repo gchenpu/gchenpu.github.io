@@ -1,0 +1,37 @@
+---
+title: Precipitation Extremes and Water Vapor
+pagetitle: 2022-3-1-Neelin2022 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2022
+author: J. David Neelin, Cristian Martinez-Villalobos, Samuel N Stechmann, Fiaz Ahmed,
+  Gang Chen, Jesse Norris, Yi-Hung Kuo and Geert Lenderink
+venue: Current Climate Change Reports
+venue_cit: <i>Current Climate Change Reports</i>, 8, 17--33, doi:10.1007/s40641-021-00177-z.
+recommended_citation: 'J. David Neelin, Cristian Martinez-Villalobos, Samuel N Stechmann,
+  Fiaz Ahmed, Gang Chen, Jesse Norris, Yi-Hung Kuo and Geert Lenderink, 2022: Precipitation
+  Extremes and Water Vapor, <i>Current Climate Change Reports</i>, 8, 17--33, doi:10.1007/s40641-021-00177-z.'
+paper_url: https://link.springer.com/10.1007/s40641-021-00177-z
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Precipitation Extremes and Water Vapor
+
+*Published in Current Climate Change Reports, 2022*
+
+**Recommended citation:** J. David Neelin, Cristian Martinez-Villalobos, Samuel N Stechmann, Fiaz Ahmed, Gang Chen, Jesse Norris, Yi-Hung Kuo and Geert Lenderink, 2022: Precipitation Extremes and Water Vapor, <i>Current Climate Change Reports</i>, 8, 17--33, doi:10.1007/s40641-021-00177-z.
+
+[Download paper](https://link.springer.com/10.1007/s40641-021-00177-z){target="_blank"}
+
+:::
+
+:::

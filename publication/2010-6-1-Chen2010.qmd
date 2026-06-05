@@ -1,0 +1,37 @@
+---
+title: Sensitivities of zonal mean atmospheric circulation to SST warming in an aqua-planet
+  model
+pagetitle: 2010-6-1-Chen2010 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2010
+author: Gang Chen, R. Alan Plumb and Jian Lu
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 37, L12701, doi:10.1029/2010GL043473.
+recommended_citation: 'Gang Chen, R. Alan Plumb and Jian Lu, 2010: Sensitivities of
+  zonal mean atmospheric circulation to SST warming in an aqua-planet model, <i>Geophysical
+  Research Letters</i>, 37, L12701, doi:10.1029/2010GL043473.'
+paper_url: http://doi.wiley.com/10.1029/2010GL043473
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Sensitivities of zonal mean atmospheric circulation to SST warming in an aqua-planet model
+
+*Published in Geophysical Research Letters, 2010*
+
+**Recommended citation:** Gang Chen, R. Alan Plumb and Jian Lu, 2010: Sensitivities of zonal mean atmospheric circulation to SST warming in an aqua-planet model, <i>Geophysical Research Letters</i>, 37, L12701, doi:10.1029/2010GL043473.
+
+[Download paper](http://doi.wiley.com/10.1029/2010GL043473){target="_blank"}
+
+:::
+
+:::

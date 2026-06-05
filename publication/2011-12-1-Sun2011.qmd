@@ -1,0 +1,37 @@
+---
+title: The Role of Planetary Waves in the Downward Influence of Stratospheric Final
+  Warming Events
+pagetitle: 2011-12-1-Sun2011 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2011
+author: Lantao Sun, Walter A. Robinson and Gang Chen
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, 68, 2826--2843, doi:10.1175/JAS-D-11-014.1.
+recommended_citation: 'Lantao Sun, Walter A. Robinson and Gang Chen, 2011: The Role
+  of Planetary Waves in the Downward Influence of Stratospheric Final Warming Events,
+  <i>Journal of the Atmospheric Sciences</i>, 68, 2826--2843, doi:10.1175/JAS-D-11-014.1.'
+paper_url: http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-11-014.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# The Role of Planetary Waves in the Downward Influence of Stratospheric Final Warming Events
+
+*Published in Journal of the Atmospheric Sciences, 2011*
+
+**Recommended citation:** Lantao Sun, Walter A. Robinson and Gang Chen, 2011: The Role of Planetary Waves in the Downward Influence of Stratospheric Final Warming Events, <i>Journal of the Atmospheric Sciences</i>, 68, 2826--2843, doi:10.1175/JAS-D-11-014.1.
+
+[Download paper](http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-11-014.1){target="_blank"}
+
+:::
+
+:::

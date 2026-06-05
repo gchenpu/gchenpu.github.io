@@ -1,0 +1,39 @@
+---
+title: The robust dynamical contribution to precipitation extremes in idealized warming
+  simulations across model resolutions
+pagetitle: 2014-4-1-Lu2014 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2014
+author: Jian Lu, L. Ruby Leung, Qing Yang, Gang Chen, William D. Collins, Fuyu Li,
+  Z. Jason Hou and Xuelei Feng
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 41, 2971--2978, doi:10.1002/2014GL059532.
+recommended_citation: 'Jian Lu, L. Ruby Leung, Qing Yang, Gang Chen, William D. Collins,
+  Fuyu Li, Z. Jason Hou and Xuelei Feng, 2014: The robust dynamical contribution to
+  precipitation extremes in idealized warming simulations across model resolutions,
+  <i>Geophysical Research Letters</i>, 41, 2971--2978, doi:10.1002/2014GL059532.'
+paper_url: http://doi.wiley.com/10.1002/2014GL059532
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# The robust dynamical contribution to precipitation extremes in idealized warming simulations across model resolutions
+
+*Published in Geophysical Research Letters, 2014*
+
+**Recommended citation:** Jian Lu, L. Ruby Leung, Qing Yang, Gang Chen, William D. Collins, Fuyu Li, Z. Jason Hou and Xuelei Feng, 2014: The robust dynamical contribution to precipitation extremes in idealized warming simulations across model resolutions, <i>Geophysical Research Letters</i>, 41, 2971--2978, doi:10.1002/2014GL059532.
+
+[Download paper](http://doi.wiley.com/10.1002/2014GL059532){target="_blank"}
+
+:::
+
+:::

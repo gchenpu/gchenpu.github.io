@@ -1,0 +1,38 @@
+---
+title: Precipitation and Soil Moisture Coupling Constrains Subseasonal Predictability
+  of a Prolonged Extreme Heatwave
+pagetitle: 2026-2-1-Lv2026 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2026
+author: Bingjie Lv, Shuguang Wang, Gang Chen and Baoqiang Xiang
+venue: Communications Earth & Environment
+venue_cit: <i>Communications Earth & Environment</i>, 7, 323, doi:10.1038/s43247-026-03341-1.
+recommended_citation: 'Bingjie Lv, Shuguang Wang, Gang Chen and Baoqiang Xiang, 2026:
+  Precipitation and Soil Moisture Coupling Constrains Subseasonal Predictability of
+  a Prolonged Extreme Heatwave, <i>Communications Earth & Environment</i>, 7, 323,
+  doi:10.1038/s43247-026-03341-1.'
+paper_url: https://www.nature.com/articles/s43247-026-03341-1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Precipitation and Soil Moisture Coupling Constrains Subseasonal Predictability of a Prolonged Extreme Heatwave
+
+*Published in Communications Earth & Environment, 2026*
+
+**Recommended citation:** Bingjie Lv, Shuguang Wang, Gang Chen and Baoqiang Xiang, 2026: Precipitation and Soil Moisture Coupling Constrains Subseasonal Predictability of a Prolonged Extreme Heatwave, <i>Communications Earth & Environment</i>, 7, 323, doi:10.1038/s43247-026-03341-1.
+
+[Download paper](https://www.nature.com/articles/s43247-026-03341-1){target="_blank"}
+
+:::
+
+:::

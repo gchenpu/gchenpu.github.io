@@ -1,0 +1,52 @@
+---
+title: Quantifying Eddy Generation and Dissipation in the Jet Response to Upper-versus
+  Lower-level Thermal Forcing
+pagetitle: 2022-7-1-Nie2022 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2022
+author: Yu Nie, Yang Zhang, Gang Chen and Xiu-qun Yang
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, doi:10.1175/JAS-D-21-0307.1.
+recommended_citation: 'Yu Nie, Yang Zhang, Gang Chen and Xiu-qun Yang, 2022: Quantifying
+  Eddy Generation and Dissipation in the Jet Response to Upper-versus Lower-level
+  Thermal Forcing, <i>Journal of the Atmospheric Sciences</i>, doi:10.1175/JAS-D-21-0307.1.'
+paper_url: https://journals.ametsoc.org/view/journals/atsc/aop/JAS-D-21-0307.1/JAS-D-21-0307.1.xml
+abstract: The relative roles of upper- and lower-level thermal forcing in shifting
+  the eddy driven jet are investigated using a multi-level nonlinear quasi-geostrophic
+  channel model. The numerical experiments show that the upper-level thermal forcing
+  is more efficient in shifting the eddy-driven jet. The finite-amplitude wave activity
+  diagnostics of numerical results show that the dominance of the upper-level thermal
+  forcing over the lower-level thermal forcing can be understood from their different
+  influence on eddy generation and dissipation that affects the jet shift. The upper-level
+  thermal forcing shifts the jet primarily by affecting the baroclinic generation
+  of eddies. The lower-level thermal forcing influences the jet mainly by affecting
+  the wave breaking and dissipation. The former eddy response turns out to be more
+  efficient for the thermal forcing to shift the eddy-driven jet.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Quantifying Eddy Generation and Dissipation in the Jet Response to Upper-versus Lower-level Thermal Forcing
+
+*Published in Journal of the Atmospheric Sciences, 2022*
+
+**Recommended citation:** Yu Nie, Yang Zhang, Gang Chen and Xiu-qun Yang, 2022: Quantifying Eddy Generation and Dissipation in the Jet Response to Upper-versus Lower-level Thermal Forcing, <i>Journal of the Atmospheric Sciences</i>, doi:10.1175/JAS-D-21-0307.1.
+
+## Abstract
+
+The relative roles of upper- and lower-level thermal forcing in shifting the eddy driven jet are investigated using a multi-level nonlinear quasi-geostrophic channel model. The numerical experiments show that the upper-level thermal forcing is more efficient in shifting the eddy-driven jet. The finite-amplitude wave activity diagnostics of numerical results show that the dominance of the upper-level thermal forcing over the lower-level thermal forcing can be understood from their different influence on eddy generation and dissipation that affects the jet shift. The upper-level thermal forcing shifts the jet primarily by affecting the baroclinic generation of eddies. The lower-level thermal forcing influences the jet mainly by affecting the wave breaking and dissipation. The former eddy response turns out to be more efficient for the thermal forcing to shift the eddy-driven jet.
+
+[Download paper](https://journals.ametsoc.org/view/journals/atsc/aop/JAS-D-21-0307.1/JAS-D-21-0307.1.xml){target="_blank"}
+
+:::
+
+:::

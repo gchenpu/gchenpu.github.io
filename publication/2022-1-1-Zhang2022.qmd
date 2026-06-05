@@ -1,0 +1,63 @@
+---
+title: Interpreting Observed Temperature Probability Distributions Using a Relationship
+  between Temperature and Temperature Advection
+pagetitle: 2022-1-1-Zhang2022 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2022
+author: Boer Zhang, Marianna Linz and Gang Chen
+venue: Journal of Climate
+venue_cit: <i>Journal of Climate</i>, 35, 705--724, doi:10.1175/JCLI-D-20-0920.1.
+recommended_citation: 'Boer Zhang, Marianna Linz and Gang Chen, 2022: Interpreting
+  Observed Temperature Probability Distributions Using a Relationship between Temperature
+  and Temperature Advection, <i>Journal of Climate</i>, 35, 705--724, doi:10.1175/JCLI-D-20-0920.1.'
+paper_url: https://journals.ametsoc.org/view/journals/clim/35/2/JCLI-D-20-0920.1.xml
+abstract: The nonnormality of temperature probability distributions and the physics
+  that drive it are important due to their relationships to the frequency of extreme
+  warm and cold events. Here we use a conditional mean framework to explore how horizontal
+  temperature advection and other physical processes work together to control the
+  shape of daily temperature distributions during 1979–2019 in the ERA5 dataset for
+  both JJA and DJF. We demonstrate that the temperature distribution in the middle
+  and high latitudes can largely be linearly explained by the conditional mean horizontal
+  temperature advection with the simple treatment of other processes as a Newtonian
+  relaxation with a spatially variant relaxation time scale and equilibrium temperature.
+  We analyze the role of different transient and stationary components of the horizontal
+  temperature advection in affecting the shape of temperature distributions. The anomalous
+  advection of the stationary temperature gradient has a dominant effect in influencing
+  temperature variance, while both that term and the covariance between anomalous
+  wind and anomalous temperature have significant effects on temperature skewness.
+  While this simple method works well over most of the ocean, the advection–temperature
+  relationship is more complicated over land. We classify land regions with different
+  advection–temperature relationships under our framework, and find that for both
+  seasons the aforementioned linear relationship can explain ∼30\% of land area, and
+  can explain either the lower or the upper half of temperature distributions in an
+  additional ∼30\% of land area. Identifying the regions where temperature advection
+  explains shapes of temperature distributions well will help us gain more confidence
+  in understanding the future change of temperature distributions and extreme events.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Interpreting Observed Temperature Probability Distributions Using a Relationship between Temperature and Temperature Advection
+
+*Published in Journal of Climate, 2022*
+
+**Recommended citation:** Boer Zhang, Marianna Linz and Gang Chen, 2022: Interpreting Observed Temperature Probability Distributions Using a Relationship between Temperature and Temperature Advection, <i>Journal of Climate</i>, 35, 705--724, doi:10.1175/JCLI-D-20-0920.1.
+
+## Abstract
+
+The nonnormality of temperature probability distributions and the physics that drive it are important due to their relationships to the frequency of extreme warm and cold events. Here we use a conditional mean framework to explore how horizontal temperature advection and other physical processes work together to control the shape of daily temperature distributions during 1979–2019 in the ERA5 dataset for both JJA and DJF. We demonstrate that the temperature distribution in the middle and high latitudes can largely be linearly explained by the conditional mean horizontal temperature advection with the simple treatment of other processes as a Newtonian relaxation with a spatially variant relaxation time scale and equilibrium temperature. We analyze the role of different transient and stationary components of the horizontal temperature advection in affecting the shape of temperature distributions. The anomalous advection of the stationary temperature gradient has a dominant effect in influencing temperature variance, while both that term and the covariance between anomalous wind and anomalous temperature have significant effects on temperature skewness. While this simple method works well over most of the ocean, the advection–temperature relationship is more complicated over land. We classify land regions with different advection–temperature relationships under our framework, and find that for both seasons the aforementioned linear relationship can explain ∼30\% of land area, and can explain either the lower or the upper half of temperature distributions in an additional ∼30\% of land area. Identifying the regions where temperature advection explains shapes of temperature distributions well will help us gain more confidence in understanding the future change of temperature distributions and extreme events.
+
+[Download paper](https://journals.ametsoc.org/view/journals/clim/35/2/JCLI-D-20-0920.1.xml){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,54 @@
+---
+title: Atlantic Meridional Overturning Circulation Slowdown Modulates Atmospheric
+  Rivers in a Warmer Climate
+pagetitle: 2026-5-1-Mimi2026 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2026
+author: Mohima Sultana Mimi, Wei Liu, Weiming Ma and Gang Chen
+venue: Nature Communications
+venue_cit: <i>Nature Communications</i>, doi:10.1038/s41467-026-72555-w.
+recommended_citation: 'Mohima Sultana Mimi, Wei Liu, Weiming Ma and Gang Chen, 2026:
+  Atlantic Meridional Overturning Circulation Slowdown Modulates Atmospheric Rivers
+  in a Warmer Climate, <i>Nature Communications</i>, doi:10.1038/s41467-026-72555-w.'
+paper_url: https://www.nature.com/articles/s41467-026-72555-w
+abstract: The slowing of the Atlantic meridional overturning circulation (AMOC) under
+  anthropogenic warming has been suggested to significantly impact Earth's climate.
+  Here, we isolate and quantify the AMOC impact on atmospheric rivers (ARs) across
+  the twenty-first century using coupled climate model simulations. We find that a
+  weakened AMOC promotes AR frequency in mid-latitudes by intensifying the prevailing
+  westerly winds, especially at the west coast of North America, which dramatically
+  enhances AR-induced precipitation in wintertime California. Aside from dynamic processes,
+  the weakened AMOC can also modulate ARs through thermodynamic processes. It reduces
+  AR frequency and related precipitation over the Arctic and Greenland while increasing
+  AR frequency and associated precipitation along the eastern coast of South America
+  and around Antarctica, owing primarily to AMOC-induced moisture decrease and increase
+  in the Northern and Southern Hemispheres, respectively. Our findings highlight the
+  role of the AMOC in future regional hydroclimate and climate extreme shift.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Atlantic Meridional Overturning Circulation Slowdown Modulates Atmospheric Rivers in a Warmer Climate
+
+*Published in Nature Communications, 2026*
+
+**Recommended citation:** Mohima Sultana Mimi, Wei Liu, Weiming Ma and Gang Chen, 2026: Atlantic Meridional Overturning Circulation Slowdown Modulates Atmospheric Rivers in a Warmer Climate, <i>Nature Communications</i>, doi:10.1038/s41467-026-72555-w.
+
+## Abstract
+
+The slowing of the Atlantic meridional overturning circulation (AMOC) under anthropogenic warming has been suggested to significantly impact Earth's climate. Here, we isolate and quantify the AMOC impact on atmospheric rivers (ARs) across the twenty-first century using coupled climate model simulations. We find that a weakened AMOC promotes AR frequency in mid-latitudes by intensifying the prevailing westerly winds, especially at the west coast of North America, which dramatically enhances AR-induced precipitation in wintertime California. Aside from dynamic processes, the weakened AMOC can also modulate ARs through thermodynamic processes. It reduces AR frequency and related precipitation over the Arctic and Greenland while increasing AR frequency and associated precipitation along the eastern coast of South America and around Antarctica, owing primarily to AMOC-induced moisture decrease and increase in the Northern and Southern Hemispheres, respectively. Our findings highlight the role of the AMOC in future regional hydroclimate and climate extreme shift.
+
+[Download paper](https://www.nature.com/articles/s41467-026-72555-w){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,38 @@
+---
+title: Barotropic and Baroclinic Eddy Feedbacks in the Midlatitude Jet Variability
+  and Responses to Climate Change–Like Thermal Forcings
+pagetitle: 2017-1-1-Burrows2015 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2017
+author: D Alex Burrows, Gang Chen and Lantao Sun
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, 74, 111--132, doi:10.1175/JAS-D-16-0047.1.
+recommended_citation: 'D Alex Burrows, Gang Chen and Lantao Sun, 2017: Barotropic
+  and Baroclinic Eddy Feedbacks in the Midlatitude Jet Variability and Responses to
+  Climate Change–Like Thermal Forcings, <i>Journal of the Atmospheric Sciences</i>,
+  74, 111--132, doi:10.1175/JAS-D-16-0047.1.'
+paper_url: http://journals.ametsoc.org/doi/10.1175/JAS-D-16-0047.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Barotropic and Baroclinic Eddy Feedbacks in the Midlatitude Jet Variability and Responses to Climate Change–Like Thermal Forcings
+
+*Published in Journal of the Atmospheric Sciences, 2017*
+
+**Recommended citation:** D Alex Burrows, Gang Chen and Lantao Sun, 2017: Barotropic and Baroclinic Eddy Feedbacks in the Midlatitude Jet Variability and Responses to Climate Change–Like Thermal Forcings, <i>Journal of the Atmospheric Sciences</i>, 74, 111--132, doi:10.1175/JAS-D-16-0047.1.
+
+[Download paper](http://journals.ametsoc.org/doi/10.1175/JAS-D-16-0047.1){target="_blank"}
+
+:::
+
+:::

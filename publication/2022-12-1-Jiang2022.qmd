@@ -1,0 +1,67 @@
+---
+title: Why Seasonal Prediction of California Winter Precipitation Is Challenging
+pagetitle: 2022-12-1-Jiang2022 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2022
+author: Xianan Jiang, Duane E Waliser, Peter B Gibson, Gang Chen and Weina Guan
+venue: Bulletin of the American Meteorological Society
+venue_cit: <i>Bulletin of the American Meteorological Society</i>, 103, E2688--E2700,
+  doi:10.1175/BAMS-D-21-0252.1.
+recommended_citation: 'Xianan Jiang, Duane E Waliser, Peter B Gibson, Gang Chen and
+  Weina Guan, 2022: Why Seasonal Prediction of California Winter Precipitation Is
+  Challenging, <i>Bulletin of the American Meteorological Society</i>, 103, E2688--E2700,
+  doi:10.1175/BAMS-D-21-0252.1.'
+paper_url: https://journals.ametsoc.org/view/journals/bams/103/12/BAMS-D-21-0252.1.xml
+slides_url: /files/slides/2022-12-1-Jiang2022.pdf
+abstract: Despite an urgent demand for reliable seasonal prediction of precipitation
+  in California (CA) due to the recent recurrent and severe drought conditions, our
+  predictive skill for CA winter precipitation remains limited. October hindcasts
+  by the coupled dynamical models typically show a correlation skill of about 0.3
+  for CA winter (November–March) precipitation. In this study, an attempt is made
+  to understand the underlying processes that limit seasonal prediction skill for
+  CA winter precipitation. It is found that only about 25\% of interannual variability
+  of CA winter precipitation can be attributed to influences by El Ni\~no–Southern
+  Oscillation (ENSO). Instead, the year-to-year CA winter precipitation variability
+  is primarily due to circulation anomalies independent from ENSO, featuring a circulation
+  center over the west coast United States as a portion of a short Rossby wave train
+  pattern over the North Pacific. Analyses suggest that dynamical models show nearly
+  no skill in predicting these ENSO-independent circulation anomalies, thus leading
+  to limited predictive skill for CA winter precipitation. Low predictability of these
+  ENSO-independent circulation anomalies is further demonstrated by a large ensemble
+  of atmospheric-only climate model simulations. While low predictability of the ENSO-independent
+  circulation anomalies could be due to chaotic internal atmospheric processes over
+  the mid- to high latitudes, possible underexploited predictability sources for CA
+  precipitation in models are also discussed. This study pinpoints an urgent need
+  for improved understanding of the formation mechanisms of ENSO-independent circulation
+  anomalies over the U.S. West Coast for a breakthrough in seasonal prediction of
+  CA winter precipitation.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Why Seasonal Prediction of California Winter Precipitation Is Challenging
+
+*Published in Bulletin of the American Meteorological Society, 2022*
+
+**Recommended citation:** Xianan Jiang, Duane E Waliser, Peter B Gibson, Gang Chen and Weina Guan, 2022: Why Seasonal Prediction of California Winter Precipitation Is Challenging, <i>Bulletin of the American Meteorological Society</i>, 103, E2688--E2700, doi:10.1175/BAMS-D-21-0252.1.
+
+## Abstract
+
+Despite an urgent demand for reliable seasonal prediction of precipitation in California (CA) due to the recent recurrent and severe drought conditions, our predictive skill for CA winter precipitation remains limited. October hindcasts by the coupled dynamical models typically show a correlation skill of about 0.3 for CA winter (November–March) precipitation. In this study, an attempt is made to understand the underlying processes that limit seasonal prediction skill for CA winter precipitation. It is found that only about 25\% of interannual variability of CA winter precipitation can be attributed to influences by El Ni\~no–Southern Oscillation (ENSO). Instead, the year-to-year CA winter precipitation variability is primarily due to circulation anomalies independent from ENSO, featuring a circulation center over the west coast United States as a portion of a short Rossby wave train pattern over the North Pacific. Analyses suggest that dynamical models show nearly no skill in predicting these ENSO-independent circulation anomalies, thus leading to limited predictive skill for CA winter precipitation. Low predictability of these ENSO-independent circulation anomalies is further demonstrated by a large ensemble of atmospheric-only climate model simulations. While low predictability of the ENSO-independent circulation anomalies could be due to chaotic internal atmospheric processes over the mid- to high latitudes, possible underexploited predictability sources for CA precipitation in models are also discussed. This study pinpoints an urgent need for improved understanding of the formation mechanisms of ENSO-independent circulation anomalies over the U.S. West Coast for a breakthrough in seasonal prediction of CA winter precipitation.
+
+[Download paper](https://journals.ametsoc.org/view/journals/bams/103/12/BAMS-D-21-0252.1.xml){target="_blank"}
+
+[Slides](/files/slides/2022-12-1-Jiang2022.pdf){target="_blank"}
+
+:::
+
+:::

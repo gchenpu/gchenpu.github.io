@@ -1,0 +1,36 @@
+---
+title: Width of the Hadley cell in simple and comprehensive general circulation models
+pagetitle: 2007-9-1-Frierson2007b - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2007
+author: Dargan M. W. Frierson, Jian Lu and Gang Chen
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 34, L18804, doi:10.1029/2007GL031115.
+recommended_citation: 'Dargan M. W. Frierson, Jian Lu and Gang Chen, 2007: Width of
+  the Hadley cell in simple and comprehensive general circulation models, <i>Geophysical
+  Research Letters</i>, 34, L18804, doi:10.1029/2007GL031115.'
+paper_url: http://doi.wiley.com/10.1029/2007GL031115
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Width of the Hadley cell in simple and comprehensive general circulation models
+
+*Published in Geophysical Research Letters, 2007*
+
+**Recommended citation:** Dargan M. W. Frierson, Jian Lu and Gang Chen, 2007: Width of the Hadley cell in simple and comprehensive general circulation models, <i>Geophysical Research Letters</i>, 34, L18804, doi:10.1029/2007GL031115.
+
+[Download paper](http://doi.wiley.com/10.1029/2007GL031115){target="_blank"}
+
+:::
+
+:::

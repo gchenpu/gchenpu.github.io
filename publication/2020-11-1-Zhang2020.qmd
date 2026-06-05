@@ -1,0 +1,37 @@
+---
+title: North American cold events following sudden stratospheric warming in the presence
+  of low Barents-Kara Sea sea ice
+pagetitle: 2020-11-1-Zhang2020 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2020
+author: Pengfei Zhang, Yutian Wu, Gang Chen and Yueyue Yu
+venue: Environmental Research Letters
+venue_cit: <i>Environmental Research Letters</i>, 15, 124017, doi:10.1088/1748-9326/abc215.
+recommended_citation: 'Pengfei Zhang, Yutian Wu, Gang Chen and Yueyue Yu, 2020: North
+  American cold events following sudden stratospheric warming in the presence of low
+  Barents-Kara Sea sea ice, <i>Environmental Research Letters</i>, 15, 124017, doi:10.1088/1748-9326/abc215.'
+paper_url: https://iopscience.iop.org/article/10.1088/1748-9326/abc215
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# North American cold events following sudden stratospheric warming in the presence of low Barents-Kara Sea sea ice
+
+*Published in Environmental Research Letters, 2020*
+
+**Recommended citation:** Pengfei Zhang, Yutian Wu, Gang Chen and Yueyue Yu, 2020: North American cold events following sudden stratospheric warming in the presence of low Barents-Kara Sea sea ice, <i>Environmental Research Letters</i>, 15, 124017, doi:10.1088/1748-9326/abc215.
+
+[Download paper](https://iopscience.iop.org/article/10.1088/1748-9326/abc215){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,37 @@
+---
+title: Testing the Clausius--Clapeyron constraint on the aerosol-induced changes in
+  mean and extreme precipitation
+pagetitle: 2011-2-1-Chen2011 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2011
+author: Gang Chen, Yi Ming, Noah D. Singer and Jian Lu
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 38, L04807, doi:10.1029/2010GL046435.
+recommended_citation: 'Gang Chen, Yi Ming, Noah D. Singer and Jian Lu, 2011: Testing
+  the Clausius--Clapeyron constraint on the aerosol-induced changes in mean and extreme
+  precipitation, <i>Geophysical Research Letters</i>, 38, L04807, doi:10.1029/2010GL046435.'
+paper_url: http://www.agu.org/pubs/crossref/2011/2010GL046435.shtml http://doi.wiley.com/10.1029/2010GL046435
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Testing the Clausius--Clapeyron constraint on the aerosol-induced changes in mean and extreme precipitation
+
+*Published in Geophysical Research Letters, 2011*
+
+**Recommended citation:** Gang Chen, Yi Ming, Noah D. Singer and Jian Lu, 2011: Testing the Clausius--Clapeyron constraint on the aerosol-induced changes in mean and extreme precipitation, <i>Geophysical Research Letters</i>, 38, L04807, doi:10.1029/2010GL046435.
+
+[Download paper](http://www.agu.org/pubs/crossref/2011/2010GL046435.shtml http://doi.wiley.com/10.1029/2010GL046435){target="_blank"}
+
+:::
+
+:::

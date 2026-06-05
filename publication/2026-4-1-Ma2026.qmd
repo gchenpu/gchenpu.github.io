@@ -1,0 +1,39 @@
+---
+title: 'Model-Observation Discrepancies in Arctic Moisture Intrusions: Causes and
+  Pathways for Improved Simulation'
+pagetitle: 2026-4-1-Ma2026 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2026
+author: Weiming Ma, Nicole Feldl, Hailong Wang, Gang Chen, Sandro W. Lubis, Yun Qian
+  and Bryce E. Harrop
+venue: npj Climate and Atmospheric Science
+venue_cit: <i>npj Climate and Atmospheric Science</i>, doi:10.1038/s41612-026-01400-0.
+recommended_citation: 'Weiming Ma, Nicole Feldl, Hailong Wang, Gang Chen, Sandro W.
+  Lubis, Yun Qian and Bryce E. Harrop, 2026: Model-Observation Discrepancies in Arctic
+  Moisture Intrusions: Causes and Pathways for Improved Simulation, <i>npj Climate
+  and Atmospheric Science</i>, doi:10.1038/s41612-026-01400-0.'
+paper_url: https://www.nature.com/articles/s41612-026-01400-0
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Model-Observation Discrepancies in Arctic Moisture Intrusions: Causes and Pathways for Improved Simulation
+
+*Published in npj Climate and Atmospheric Science, 2026*
+
+**Recommended citation:** Weiming Ma, Nicole Feldl, Hailong Wang, Gang Chen, Sandro W. Lubis, Yun Qian and Bryce E. Harrop, 2026: Model-Observation Discrepancies in Arctic Moisture Intrusions: Causes and Pathways for Improved Simulation, <i>npj Climate and Atmospheric Science</i>, doi:10.1038/s41612-026-01400-0.
+
+[Download paper](https://www.nature.com/articles/s41612-026-01400-0){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,188 @@
+/* ============================================================
+   Gang Chen — Quarto Academic Website
+   ============================================================ */
+
+/* ---------- Author profile card ---------- */
+.author-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 1.5rem 0;
+  gap: 0.75rem;
+}
+
+.author-profile img.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #dee2e6;
+}
+
+.author-profile .author-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.author-profile .author-bio {
+  font-size: 0.88rem;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.author-profile .author-location {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.author-profile .author-links {
+  margin-top: 0.25rem;
+  width: 100%;
+}
+
+.author-profile .author-links a {
+  font-size: 0.82rem;
+  color: #4a4a4a;
+  text-decoration: none;
+  display: block;
+  padding: 0.2rem 0;
+  transition: color 0.2s;
+}
+
+.author-profile .author-links a:hover {
+  color: #0d6efd;
+}
+
+/* ---------- Two-column page layout ---------- */
+/* Quarto full layout: constrain the overall page width */
+.page-full .content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+.page-with-sidebar {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.sidebar-col {
+  position: sticky;
+  top: 80px;
+}
+
+.content-col {
+  min-width: 0;
+  max-width: 860px;
+}
+
+/* Hide Quarto's auto title block on publication detail pages.
+   Each publication qmd already renders its own explicit heading. */
+.publication-page #title-block-header.quarto-title-block {
+  display: none;
+}
+
+.publication-page main#quarto-document-content > header#title-block-header {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .page-with-sidebar {
+    grid-template-columns: 1fr;
+  }
+  .sidebar-col {
+    position: static;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* ---------- Publications ---------- */
+.pub-list {
+  list-style: none;
+  padding-left: 0;
+  counter-reset: pub-counter;
+}
+
+.pub-list li {
+  counter-increment: pub-counter;
+  position: relative;
+  padding: 0.75rem 0 0.75rem 2.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-list li::before {
+  content: counter(pub-counter) ".";
+  position: absolute;
+  left: 0;
+  top: 0.75rem;
+  font-weight: 600;
+  color: #888;
+  min-width: 2rem;
+  text-align: right;
+}
+
+.pub-citation {
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.pub-links {
+  margin-top: 0.3rem;
+  font-size: 0.82rem;
+}
+
+.pub-links a {
+  margin-right: 0.6rem;
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Group member rows ---------- */
+.bio-row {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.bio-avatar {
+  width: 160px;
+  min-width: 160px;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.bio-text {
+  flex: 1;
+}
+
+/* ---------- Navbar tweaks ---------- */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+/* ---------- Section headings ---------- */
+h1.section-title {
+  font-size: 1.6rem;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+/* ---------- Responsive image ---------- */
+img.responsive {
+  max-width: 100%;
+  height: auto;
+}

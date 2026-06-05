@@ -1,0 +1,37 @@
+---
+title: Investigating the zonal wind response to SST warming using transient ensemble
+  AGCM experiments
+pagetitle: 2017-1-1-Palipane2016 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2017
+author: Erool Palipane, Jian Lu, Paul Staten, Gang Chen and Edwin K. Schneider
+venue: Climate Dynamics
+venue_cit: <i>Climate Dynamics</i>, 48, 523--540, doi:10.1007/s00382-016-3092-9.
+recommended_citation: 'Erool Palipane, Jian Lu, Paul Staten, Gang Chen and Edwin K.
+  Schneider, 2017: Investigating the zonal wind response to SST warming using transient
+  ensemble AGCM experiments, <i>Climate Dynamics</i>, 48, 523--540, doi:10.1007/s00382-016-3092-9.'
+paper_url: http://link.springer.com/10.1007/s00382-016-3092-9
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Investigating the zonal wind response to SST warming using transient ensemble AGCM experiments
+
+*Published in Climate Dynamics, 2017*
+
+**Recommended citation:** Erool Palipane, Jian Lu, Paul Staten, Gang Chen and Edwin K. Schneider, 2017: Investigating the zonal wind response to SST warming using transient ensemble AGCM experiments, <i>Climate Dynamics</i>, 48, 523--540, doi:10.1007/s00382-016-3092-9.
+
+[Download paper](http://link.springer.com/10.1007/s00382-016-3092-9){target="_blank"}
+
+:::
+
+:::

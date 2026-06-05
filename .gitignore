@@ -1,2 +1,5 @@
-_site/
-.gitignore
+/_site/
+/.quarto/
+*.quarto_ipynb
+**/*.quarto_ipynb
+**/*_out.ipynb

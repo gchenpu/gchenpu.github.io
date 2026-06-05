@@ -1,0 +1,62 @@
+---
+title: Mechanisms of Southern Hemisphere Midlatitude Surface Air Temperature Variability
+  under Climate Warming in the CESM2 Large Ensemble (LENS2)
+pagetitle: 2026-4-1-Ge2026 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2026
+author: Bowen Ge, Gang Chen and Kezhou Lu
+venue: Journal of Climate
+venue_cit: <i>Journal of Climate</i>, e250435, doi:10.1175/JCLI-D-25-0435.1.
+recommended_citation: 'Bowen Ge, Gang Chen and Kezhou Lu, 2026: Mechanisms of Southern
+  Hemisphere Midlatitude Surface Air Temperature Variability under Climate Warming
+  in the CESM2 Large Ensemble (LENS2), <i>Journal of Climate</i>, e250435, doi:10.1175/JCLI-D-25-0435.1.'
+paper_url: https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-25-0435.1/JCLI-D-25-0435.1.xml
+abstract: This study investigates the mechanisms for changes in surface air temperature
+  variance over the Southern Hemisphere (SH) midlatitudes under climate warming, using
+  simulations from the CESM2 Large Ensemble (LENS2). Consistent with previous findings,
+  subseasonal temperature variance in austral summer intensifies and shifts poleward
+  over the South Pacific and South Atlantic Oceans. During austral winter, subseasonal
+  temperature variance intensifies over the Indian and South Pacific Oceans and weakens
+  in the subpolar regions. While prior studies have primarily emphasized the role
+  of synoptic weather systems in driving these trends, fewer have explicitly quantified
+  the contributions of oceanic surface feedbacks within an energetic framework. Here,
+  we utilize a physically based scaling framework for surface temperature variance,
+  derived from the moist static energy (MSE) budget. This framework relates temperature
+  variance changes to variations in near-surface horizontal advection and the net
+  energetic forcing of the atmospheric column, and is shown to be robust across both
+  historical and future climates. Estimated changes based on this scaling, combining
+  contributions from eddy diffusivity, gradients in dry static energy (DSE) and MSE,
+  and net energetic damping, closely match the simulated responses in LENS2. We find
+  that the increase in DSE and MSE gradients under anthropogenic forcing outweighs
+  the damping effects of changes in diffusivity and evaporative cooling, leading to
+  enhanced temperature variance. These results provide a physical explanation for
+  changes in SH midlatitude near-surface temperature variance under climate warming,
+  highlighting the key roles of energetic and moisture constraints.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Mechanisms of Southern Hemisphere Midlatitude Surface Air Temperature Variability under Climate Warming in the CESM2 Large Ensemble (LENS2)
+
+*Published in Journal of Climate, 2026*
+
+**Recommended citation:** Bowen Ge, Gang Chen and Kezhou Lu, 2026: Mechanisms of Southern Hemisphere Midlatitude Surface Air Temperature Variability under Climate Warming in the CESM2 Large Ensemble (LENS2), <i>Journal of Climate</i>, e250435, doi:10.1175/JCLI-D-25-0435.1.
+
+## Abstract
+
+This study investigates the mechanisms for changes in surface air temperature variance over the Southern Hemisphere (SH) midlatitudes under climate warming, using simulations from the CESM2 Large Ensemble (LENS2). Consistent with previous findings, subseasonal temperature variance in austral summer intensifies and shifts poleward over the South Pacific and South Atlantic Oceans. During austral winter, subseasonal temperature variance intensifies over the Indian and South Pacific Oceans and weakens in the subpolar regions. While prior studies have primarily emphasized the role of synoptic weather systems in driving these trends, fewer have explicitly quantified the contributions of oceanic surface feedbacks within an energetic framework. Here, we utilize a physically based scaling framework for surface temperature variance, derived from the moist static energy (MSE) budget. This framework relates temperature variance changes to variations in near-surface horizontal advection and the net energetic forcing of the atmospheric column, and is shown to be robust across both historical and future climates. Estimated changes based on this scaling, combining contributions from eddy diffusivity, gradients in dry static energy (DSE) and MSE, and net energetic damping, closely match the simulated responses in LENS2. We find that the increase in DSE and MSE gradients under anthropogenic forcing outweighs the damping effects of changes in diffusivity and evaporative cooling, leading to enhanced temperature variance. These results provide a physical explanation for changes in SH midlatitude near-surface temperature variance under climate warming, highlighting the key roles of energetic and moisture constraints.
+
+[Download paper](https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-25-0435.1/JCLI-D-25-0435.1.xml){target="_blank"}
+
+:::
+
+:::

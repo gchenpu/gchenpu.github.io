@@ -1,0 +1,39 @@
+---
+title: The short-term comprehensive impact of the phase-out of global coal combustion
+  on air pollution and climate change
+pagetitle: 2025-2-1-Ge2025a - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2025
+author: Wendong Ge, Noah S Prime, Steven J Smith, Junfeng Liu, Yang Ren, Yuhan Zhou,
+  Huihuang Wu, Xian Wang and Gang Chen
+venue: Environmental Pollution
+venue_cit: <i>Environmental Pollution</i>, 367, 125669, doi:10.1016/j.envpol.2025.125669.
+recommended_citation: 'Wendong Ge, Noah S Prime, Steven J Smith, Junfeng Liu, Yang
+  Ren, Yuhan Zhou, Huihuang Wu, Xian Wang and Gang Chen, 2025: The short-term comprehensive
+  impact of the phase-out of global coal combustion on air pollution and climate change,
+  <i>Environmental Pollution</i>, 367, 125669, doi:10.1016/j.envpol.2025.125669.'
+paper_url: https://linkinghub.elsevier.com/retrieve/pii/S0269749125000429
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# The short-term comprehensive impact of the phase-out of global coal combustion on air pollution and climate change
+
+*Published in Environmental Pollution, 2025*
+
+**Recommended citation:** Wendong Ge, Noah S Prime, Steven J Smith, Junfeng Liu, Yang Ren, Yuhan Zhou, Huihuang Wu, Xian Wang and Gang Chen, 2025: The short-term comprehensive impact of the phase-out of global coal combustion on air pollution and climate change, <i>Environmental Pollution</i>, 367, 125669, doi:10.1016/j.envpol.2025.125669.
+
+[Download paper](https://linkinghub.elsevier.com/retrieve/pii/S0269749125000429){target="_blank"}
+
+:::
+
+:::

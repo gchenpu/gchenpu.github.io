@@ -1,0 +1,36 @@
+---
+title: The role of synoptic eddies in the tropospheric response to stratospheric variability
+pagetitle: 2013-9-1-Domeisen2013 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2013
+author: Daniela I. V. Domeisen, Lantao Sun and Gang Chen
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 40, 4933--4937, doi:10.1002/grl.50943.
+recommended_citation: 'Daniela I. V. Domeisen, Lantao Sun and Gang Chen, 2013: The
+  role of synoptic eddies in the tropospheric response to stratospheric variability,
+  <i>Geophysical Research Letters</i>, 40, 4933--4937, doi:10.1002/grl.50943.'
+paper_url: http://doi.wiley.com/10.1002/grl.50943
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# The role of synoptic eddies in the tropospheric response to stratospheric variability
+
+*Published in Geophysical Research Letters, 2013*
+
+**Recommended citation:** Daniela I. V. Domeisen, Lantao Sun and Gang Chen, 2013: The role of synoptic eddies in the tropospheric response to stratospheric variability, <i>Geophysical Research Letters</i>, 40, 4933--4937, doi:10.1002/grl.50943.
+
+[Download paper](http://doi.wiley.com/10.1002/grl.50943){target="_blank"}
+
+:::
+
+:::

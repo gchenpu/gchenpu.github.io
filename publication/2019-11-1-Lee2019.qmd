@@ -1,0 +1,39 @@
+---
+title: North Atlantic and Pacific Quasi‐Stationary Parts of Atmospheric Rivers and
+  Their Implications for East Asian Monsoon Onset
+pagetitle: 2019-11-1-Lee2019 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2019
+author: Hung‐I Lee, Jonathan L Mitchell, Aradhna Tripati, Juan M Lora, Gang Chen and
+  Qinghua Ding
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, doi:10.1029/2019GL084272.
+recommended_citation: 'Hung‐I Lee, Jonathan L Mitchell, Aradhna Tripati, Juan M Lora,
+  Gang Chen and Qinghua Ding, 2019: North Atlantic and Pacific Quasi‐Stationary Parts
+  of Atmospheric Rivers and Their Implications for East Asian Monsoon Onset, <i>Geophysical
+  Research Letters</i>, doi:10.1029/2019GL084272.'
+paper_url: https://doi.org/10.1029/2019GL084272
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# North Atlantic and Pacific Quasi‐Stationary Parts of Atmospheric Rivers and Their Implications for East Asian Monsoon Onset
+
+*Published in Geophysical Research Letters, 2019*
+
+**Recommended citation:** Hung‐I Lee, Jonathan L Mitchell, Aradhna Tripati, Juan M Lora, Gang Chen and Qinghua Ding, 2019: North Atlantic and Pacific Quasi‐Stationary Parts of Atmospheric Rivers and Their Implications for East Asian Monsoon Onset, <i>Geophysical Research Letters</i>, doi:10.1029/2019GL084272.
+
+[Download paper](https://doi.org/10.1029/2019GL084272){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,36 @@
+---
+title: Sensitivity of the Latitude of the Surface Westerlies to Surface Friction
+pagetitle: 2007-8-1-Chen2007a - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2007
+author: Gang Chen, Isaac M. Held and Walter A. Robinson
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, 64, 2899--2915, doi:10.1175/JAS3995.1.
+recommended_citation: 'Gang Chen, Isaac M. Held and Walter A. Robinson, 2007: Sensitivity
+  of the Latitude of the Surface Westerlies to Surface Friction, <i>Journal of the
+  Atmospheric Sciences</i>, 64, 2899--2915, doi:10.1175/JAS3995.1.'
+paper_url: http://journals.ametsoc.org/doi/abs/10.1175/JAS3995.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Sensitivity of the Latitude of the Surface Westerlies to Surface Friction
+
+*Published in Journal of the Atmospheric Sciences, 2007*
+
+**Recommended citation:** Gang Chen, Isaac M. Held and Walter A. Robinson, 2007: Sensitivity of the Latitude of the Surface Westerlies to Surface Friction, <i>Journal of the Atmospheric Sciences</i>, 64, 2899--2915, doi:10.1175/JAS3995.1.
+
+[Download paper](http://journals.ametsoc.org/doi/abs/10.1175/JAS3995.1){target="_blank"}
+
+:::
+
+:::

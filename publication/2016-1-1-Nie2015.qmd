@@ -1,0 +1,38 @@
+---
+title: Delineating the Barotropic and Baroclinic Mechanisms in the Midlatitude Eddy-Driven
+  Jet Response to Lower-Tropospheric Thermal Forcing
+pagetitle: 2016-1-1-Nie2015 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2016
+author: Yu Nie, Yang Zhang, Gang Chen and Xiu-Qun Yang
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, 73, 429--448, doi:10.1175/JAS-D-15-0090.1.
+recommended_citation: 'Yu Nie, Yang Zhang, Gang Chen and Xiu-Qun Yang, 2016: Delineating
+  the Barotropic and Baroclinic Mechanisms in the Midlatitude Eddy-Driven Jet Response
+  to Lower-Tropospheric Thermal Forcing, <i>Journal of the Atmospheric Sciences</i>,
+  73, 429--448, doi:10.1175/JAS-D-15-0090.1.'
+paper_url: http://journals.ametsoc.org/doi/10.1175/JAS-D-15-0090.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Delineating the Barotropic and Baroclinic Mechanisms in the Midlatitude Eddy-Driven Jet Response to Lower-Tropospheric Thermal Forcing
+
+*Published in Journal of the Atmospheric Sciences, 2016*
+
+**Recommended citation:** Yu Nie, Yang Zhang, Gang Chen and Xiu-Qun Yang, 2016: Delineating the Barotropic and Baroclinic Mechanisms in the Midlatitude Eddy-Driven Jet Response to Lower-Tropospheric Thermal Forcing, <i>Journal of the Atmospheric Sciences</i>, 73, 429--448, doi:10.1175/JAS-D-15-0090.1.
+
+[Download paper](http://journals.ametsoc.org/doi/10.1175/JAS-D-15-0090.1){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,22 @@
+::: {.author-profile}
+<img src="/images/Gang%20Chen_03.jpg" class="avatar" alt="Gang Chen">
+
+[**Gang Chen**]{.author-name}
+
+::: {.author-bio}
+Professor, Dept. of Atmospheric and Oceanic Sciences, University of California, Los Angeles
+:::
+
+::: {.author-location}
+Math Sci Building 7149, Los Angeles, CA 90095
+:::
+
+::: {.author-links}
+[<i class="bi bi-mortarboard-fill"></i> Google Scholar](https://scholar.google.com/citations?user=pqYiwgQAAAAJ&hl=en)
+[<i class="bi bi-journal-text"></i> ResearchGate](https://www.researchgate.net/profile/Gang_Chen99)
+[<i class="bi bi-patch-check"></i> ORCID](https://orcid.org/0000-0003-4934-1909)
+[<i class="bi bi-github"></i> GitHub](https://github.com/gchenpu)
+[<i class="bi bi-twitter-x"></i> Twitter](https://twitter.com/gchenpu)
+:::
+
+:::

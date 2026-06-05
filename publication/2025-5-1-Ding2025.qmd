@@ -1,0 +1,53 @@
+---
+title: Demystifying the drivers of the spring warming asymmetry between Eurasia and
+  North America
+pagetitle: 2025-5-1-Ding2025 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2025
+author: Xiuyuan Ding, Gang Chen, Yuan Wang and Lantao Sun
+venue: Science Advances
+venue_cit: <i>Science Advances</i>, 11, doi:10.1126/sciadv.adu2364.
+recommended_citation: 'Xiuyuan Ding, Gang Chen, Yuan Wang and Lantao Sun, 2025: Demystifying
+  the drivers of the spring warming asymmetry between Eurasia and North America, <i>Science
+  Advances</i>, 11, doi:10.1126/sciadv.adu2364.'
+paper_url: https://www.science.org/doi/10.1126/sciadv.adu2364
+abstract: In spring, global warming exhibits prominent zonal asymmetry at continental
+  scales, with Eurasia warming three times faster than North America during 1979–2021.
+  Meanwhile, snow loss is also highly asymmetric. These changes are critical for regional
+  agriculture and water management, yet the roles of specific forcings behind them
+  remain unclear. Based on hierarchical large-ensemble climate model simulations,
+  \~32 ± 28\% of the surface air temperature (SAT) asymmetric trend and 16 ± 13\%
+  of the snow cover asymmetric trend between Eurasia and North America are attributable
+  to tropical Pacific variability. Single-forcing experiments reveal that anthropogenic
+  aerosols can induce a comparable asymmetry, accounting for 34 ± 23\% (24 ± 17\%)
+  of observed SAT (snow cover) asymmetric trends. However, their effects are largely
+  masked by the greenhouse gas forcing. As anthropogenic aerosol emissions are expected
+  to decline, the current warming asymmetry may reverse in the future.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Demystifying the drivers of the spring warming asymmetry between Eurasia and North America
+
+*Published in Science Advances, 2025*
+
+**Recommended citation:** Xiuyuan Ding, Gang Chen, Yuan Wang and Lantao Sun, 2025: Demystifying the drivers of the spring warming asymmetry between Eurasia and North America, <i>Science Advances</i>, 11, doi:10.1126/sciadv.adu2364.
+
+## Abstract
+
+In spring, global warming exhibits prominent zonal asymmetry at continental scales, with Eurasia warming three times faster than North America during 1979–2021. Meanwhile, snow loss is also highly asymmetric. These changes are critical for regional agriculture and water management, yet the roles of specific forcings behind them remain unclear. Based on hierarchical large-ensemble climate model simulations, \~32 ± 28\% of the surface air temperature (SAT) asymmetric trend and 16 ± 13\% of the snow cover asymmetric trend between Eurasia and North America are attributable to tropical Pacific variability. Single-forcing experiments reveal that anthropogenic aerosols can induce a comparable asymmetry, accounting for 34 ± 23\% (24 ± 17\%) of observed SAT (snow cover) asymmetric trends. However, their effects are largely masked by the greenhouse gas forcing. As anthropogenic aerosol emissions are expected to decline, the current warming asymmetry may reverse in the future.
+
+[Download paper](https://www.science.org/doi/10.1126/sciadv.adu2364){target="_blank"}
+
+:::
+
+:::

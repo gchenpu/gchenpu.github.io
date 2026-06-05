@@ -1,0 +1,38 @@
+---
+title: Gaps and Ways Forward in Atmospheric Blocking and Extreme Weather Research
+pagetitle: 2026-3-1-Wang2026 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2026
+author: Lei Wang, Jian Lu, Melissa L. Breeden, Gang Chen, Stephanie A. Henderson,
+  Veeshan Narinesingh, Isla R. Simpson, Tim Woollings, Yanjun Hu and Sandro W. Lubis
+venue: Nature Communications
+venue_cit: <i>Nature Communications</i>, 17, 2873, doi:10.1038/s41467-026-70487-z.
+recommended_citation: 'Lei Wang, Jian Lu, Melissa L. Breeden, Gang Chen, Stephanie
+  A. Henderson, Veeshan Narinesingh, Isla R. Simpson, Tim Woollings, Yanjun Hu and
+  Sandro W. Lubis, 2026: Gaps and Ways Forward in Atmospheric Blocking and Extreme
+  Weather Research, <i>Nature Communications</i>, 17, 2873, doi:10.1038/s41467-026-70487-z.'
+paper_url: https://www.nature.com/articles/s41467-026-70487-z
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Gaps and Ways Forward in Atmospheric Blocking and Extreme Weather Research
+
+*Published in Nature Communications, 2026*
+
+**Recommended citation:** Lei Wang, Jian Lu, Melissa L. Breeden, Gang Chen, Stephanie A. Henderson, Veeshan Narinesingh, Isla R. Simpson, Tim Woollings, Yanjun Hu and Sandro W. Lubis, 2026: Gaps and Ways Forward in Atmospheric Blocking and Extreme Weather Research, <i>Nature Communications</i>, 17, 2873, doi:10.1038/s41467-026-70487-z.
+
+[Download paper](https://www.nature.com/articles/s41467-026-70487-z){target="_blank"}
+
+:::
+
+:::

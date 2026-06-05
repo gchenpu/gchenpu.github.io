@@ -1,0 +1,4 @@
+title: Current Year Shortcode
+contributes:
+  shortcodes:
+    - year.lua

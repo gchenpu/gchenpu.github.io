@@ -1,0 +1,38 @@
+---
+title: Separating the Mechanisms of Transient Responses to Stratospheric Ozone Depletion–Like
+  Cooling in an Idealized Atmospheric Model
+pagetitle: 2015-2-1-Yang2014b - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2015
+author: Huang Yang, Lantao Sun and Gang Chen
+venue: Journal of the Atmospheric Sciences
+venue_cit: <i>Journal of the Atmospheric Sciences</i>, 72, 763--773, doi:10.1175/JAS-D-13-0353.1.
+recommended_citation: 'Huang Yang, Lantao Sun and Gang Chen, 2015: Separating the
+  Mechanisms of Transient Responses to Stratospheric Ozone Depletion–Like Cooling
+  in an Idealized Atmospheric Model, <i>Journal of the Atmospheric Sciences</i>, 72,
+  763--773, doi:10.1175/JAS-D-13-0353.1.'
+paper_url: http://journals.ametsoc.org/doi/10.1175/JAS-D-13-0353.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Separating the Mechanisms of Transient Responses to Stratospheric Ozone Depletion–Like Cooling in an Idealized Atmospheric Model
+
+*Published in Journal of the Atmospheric Sciences, 2015*
+
+**Recommended citation:** Huang Yang, Lantao Sun and Gang Chen, 2015: Separating the Mechanisms of Transient Responses to Stratospheric Ozone Depletion–Like Cooling in an Idealized Atmospheric Model, <i>Journal of the Atmospheric Sciences</i>, 72, 763--773, doi:10.1175/JAS-D-13-0353.1.
+
+[Download paper](http://journals.ametsoc.org/doi/10.1175/JAS-D-13-0353.1){target="_blank"}
+
+:::
+
+:::

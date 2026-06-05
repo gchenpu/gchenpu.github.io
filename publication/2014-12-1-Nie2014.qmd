@@ -1,0 +1,38 @@
+---
+title: Quantifying barotropic and baroclinic eddy feedbacks in the persistence of
+  the Southern Annular Mode
+pagetitle: 2014-12-1-Nie2014 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2014
+author: Yu Nie, Yang Zhang, Gang Chen, Xiu-qun Yang and D Alex Burrows
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 41, 8636--8644, doi:10.1002/2014GL062210.
+recommended_citation: 'Yu Nie, Yang Zhang, Gang Chen, Xiu-qun Yang and D Alex Burrows,
+  2014: Quantifying barotropic and baroclinic eddy feedbacks in the persistence of
+  the Southern Annular Mode, <i>Geophysical Research Letters</i>, 41, 8636--8644,
+  doi:10.1002/2014GL062210.'
+paper_url: http://doi.wiley.com/10.1002/2014GL062210
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Quantifying barotropic and baroclinic eddy feedbacks in the persistence of the Southern Annular Mode
+
+*Published in Geophysical Research Letters, 2014*
+
+**Recommended citation:** Yu Nie, Yang Zhang, Gang Chen, Xiu-qun Yang and D Alex Burrows, 2014: Quantifying barotropic and baroclinic eddy feedbacks in the persistence of the Southern Annular Mode, <i>Geophysical Research Letters</i>, 41, 8636--8644, doi:10.1002/2014GL062210.
+
+[Download paper](http://doi.wiley.com/10.1002/2014GL062210){target="_blank"}
+
+:::
+
+:::

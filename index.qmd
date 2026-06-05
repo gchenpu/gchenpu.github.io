@@ -1,0 +1,94 @@
+---
+# title: "About"
+# pagetitle: "Gang Chen at UCLA"
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+The focus of my research group is the fundamental dynamics in atmospheric circulation and chemical transport. Through a combination of theory and numerical modeling, we develop toolboxes to understand the global circulation of the atmosphere, from tropical Hadley cell circulations to extratropical storm systems, from tropospheric extreme weather to stratospheric polar vortex breakdown events, and from transport of water vapor to stratosphere-troposphere exchange of ozone. These processes are instrumental to our understanding of weather extremes (e.g. winter blizzards or heat waves), hydrological extremes (e.g., drought or flooding), or extreme air pollution. Our research can be categorized in two interrelated themes.
+
+- Global atmospheric circulation and regional weather extremes
+- Transport of atmospheric moisture and chemical species
+
+<!-- For example, transport and mixing near the tropopause (~10 km above the ground) can be illustrated in the animation of Ertel's Potential Vorticity (left) and O3 mixing ratio (right):
+
+![](images/PV_O3.gif){.responsive} -->
+
+## Recent Publications
+
+```{python}
+#| echo: false
+#| output: asis
+import os, re, yaml
+from html import unescape
+
+pub_dir = "./publication"
+
+def parse_pub(fname):
+    with open(os.path.join(pub_dir, fname)) as f:
+        content = f.read()
+    if not content.startswith('---\n'):
+        return None
+    parts = content.split('\n---\n', 1)
+    if len(parts) != 2:
+        return None
+    try:
+        fm = yaml.safe_load(parts[0][4:])
+    except yaml.YAMLError:
+        return None
+
+    # Preferred key avoids conflict with Quarto reserved metadata name.
+    if fm.get('recommended_citation') and not fm.get('citation'):
+        fm['citation'] = fm['recommended_citation']
+
+    # Fallback for older pages that may not store citation in YAML.
+    if not fm.get('citation'):
+        m = re.search(r'\*\*Recommended citation:\*\*\s*(.+)', parts[1])
+        if m:
+            fm['citation'] = m.group(1).strip()
+    return fm
+
+pubs = []
+for fname in os.listdir(pub_dir):
+    if fname.endswith('.qmd'):
+        p = parse_pub(fname)
+        if p:
+            parts = fname.split('-')
+            try:
+                p['_month'] = int(parts[1])
+                p['_day'] = int(parts[2])
+            except (IndexError, ValueError):
+                p['_month'] = 0
+                p['_day'] = 0
+            p['_fname'] = fname
+            pubs.append(p)
+
+pubs.sort(key=lambda x: (int(x.get('year', 0)), x.get('_month', 0), x.get('_day', 0)), reverse=True)
+# skip thesis entries for recent list
+recent = [p for p in pubs if not re.search(r'thesis', p.get('venue', ''), re.IGNORECASE)][:5]
+
+print('<ul style="list-style:none;padding-left:0;">')
+for pub in recent:
+    cit = unescape(pub.get('citation', pub.get('title', '')))
+    title = unescape(pub.get('title', ''))
+    slug = pub.get('_fname', '').replace('.qmd', '')
+    url = f'publication/{slug}.html' if slug else ''
+    if url and title:
+        linked_cit = cit.replace(title, f'<a href="{url}" target="_blank" rel="noopener">{title}</a>', 1)
+    else:
+        linked_cit = cit
+    print(f'<li style="padding:0.6rem 0;border-bottom:1px solid #eee;">')
+    print(f'<div style="font-size:0.92rem">{linked_cit}</div>')
+    print('</li>')
+print('</ul>')
+```
+
+:::
+
+:::

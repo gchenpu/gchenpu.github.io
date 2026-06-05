@@ -1,0 +1,37 @@
+---
+title: Phase speed spectra and the recent poleward shift of Southern Hemisphere surface
+  westerlies
+pagetitle: 2007-11-1-Chen2007b - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2007
+author: Gang Chen and Isaac M. Held
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 34, L21805, doi:10.1029/2007GL031200.
+recommended_citation: 'Gang Chen and Isaac M. Held, 2007: Phase speed spectra and
+  the recent poleward shift of Southern Hemisphere surface westerlies, <i>Geophysical
+  Research Letters</i>, 34, L21805, doi:10.1029/2007GL031200.'
+paper_url: http://doi.wiley.com/10.1029/2007GL031200
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Phase speed spectra and the recent poleward shift of Southern Hemisphere surface westerlies
+
+*Published in Geophysical Research Letters, 2007*
+
+**Recommended citation:** Gang Chen and Isaac M. Held, 2007: Phase speed spectra and the recent poleward shift of Southern Hemisphere surface westerlies, <i>Geophysical Research Letters</i>, 34, L21805, doi:10.1029/2007GL031200.
+
+[Download paper](http://doi.wiley.com/10.1029/2007GL031200){target="_blank"}
+
+:::
+
+:::

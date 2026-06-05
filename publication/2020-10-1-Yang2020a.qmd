@@ -1,0 +1,52 @@
+---
+title: Dependence of Atmospheric Transport Into the Arctic on the Meridional Extent
+  of the Hadley Cell
+pagetitle: 2020-10-1-Yang2020a - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2020
+author: Huang Yang, Darryn W. Waugh, Clara Orbe and Gang Chen
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 47, 1--11, doi:10.1029/2020GL090133.
+recommended_citation: 'Huang Yang, Darryn W. Waugh, Clara Orbe and Gang Chen, 2020:
+  Dependence of Atmospheric Transport Into the Arctic on the Meridional Extent of
+  the Hadley Cell, <i>Geophysical Research Letters</i>, 47, 1--11, doi:10.1029/2020GL090133.'
+paper_url: https://onlinelibrary.wiley.com/doi/10.1029/2020GL090133
+abstract: Recent studies have shown a large spread in the transport of atmospheric
+  tracers into the Arctic among a suite of chemistry climate models and have suggested
+  that this is related to the spread in the meridional extent of the Hadley Cell (HC).
+  Here we examine the HC-transport relationship using an idealized model, where we
+  vary the mean circulation and isolate its impact on transport to the Arctic. It
+  is shown that the poleward transport depends on the relative position between the
+  northern edge of the HC and the tracer source, with maximum transport occurring
+  when the HC edge lies near the middle of the source region. Such dependence highlights
+  the critical role of near-surface transport by the Eulerian mean circulation rather
+  than eddy mixing in the free troposphere and suggests that variations in the HC
+  edge and the tracer source region are both important for modeling Arctic composition.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Dependence of Atmospheric Transport Into the Arctic on the Meridional Extent of the Hadley Cell
+
+*Published in Geophysical Research Letters, 2020*
+
+**Recommended citation:** Huang Yang, Darryn W. Waugh, Clara Orbe and Gang Chen, 2020: Dependence of Atmospheric Transport Into the Arctic on the Meridional Extent of the Hadley Cell, <i>Geophysical Research Letters</i>, 47, 1--11, doi:10.1029/2020GL090133.
+
+## Abstract
+
+Recent studies have shown a large spread in the transport of atmospheric tracers into the Arctic among a suite of chemistry climate models and have suggested that this is related to the spread in the meridional extent of the Hadley Cell (HC). Here we examine the HC-transport relationship using an idealized model, where we vary the mean circulation and isolate its impact on transport to the Arctic. It is shown that the poleward transport depends on the relative position between the northern edge of the HC and the tracer source, with maximum transport occurring when the HC edge lies near the middle of the source region. Such dependence highlights the critical role of near-surface transport by the Eulerian mean circulation rather than eddy mixing in the free troposphere and suggests that variations in the HC edge and the tracer source region are both important for modeling Arctic composition.
+
+[Download paper](https://onlinelibrary.wiley.com/doi/10.1029/2020GL090133){target="_blank"}
+
+:::
+
+:::

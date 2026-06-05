@@ -1,0 +1,37 @@
+---
+title: Constraining the Varied Response of Northern Hemisphere Winter Circulation
+  Waviness to Climate Change
+pagetitle: 2023-3-1-Nie2023 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2023
+author: Yu Nie, Gang Chen, Jian Lu, Wenyu Zhou and Yang Zhang
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 50, doi:10.1029/2022GL102150.
+recommended_citation: 'Yu Nie, Gang Chen, Jian Lu, Wenyu Zhou and Yang Zhang, 2023:
+  Constraining the Varied Response of Northern Hemisphere Winter Circulation Waviness
+  to Climate Change, <i>Geophysical Research Letters</i>, 50, doi:10.1029/2022GL102150.'
+paper_url: https://onlinelibrary.wiley.com/doi/10.1029/2022GL102150
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Constraining the Varied Response of Northern Hemisphere Winter Circulation Waviness to Climate Change
+
+*Published in Geophysical Research Letters, 2023*
+
+**Recommended citation:** Yu Nie, Gang Chen, Jian Lu, Wenyu Zhou and Yang Zhang, 2023: Constraining the Varied Response of Northern Hemisphere Winter Circulation Waviness to Climate Change, <i>Geophysical Research Letters</i>, 50, doi:10.1029/2022GL102150.
+
+[Download paper](https://onlinelibrary.wiley.com/doi/10.1029/2022GL102150){target="_blank"}
+
+:::
+
+:::

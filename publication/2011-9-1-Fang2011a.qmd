@@ -1,0 +1,39 @@
+---
+title: The impacts of changing transport and precipitation on pollutant distributions
+  in a future climate
+pagetitle: 2011-9-1-Fang2011a - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2011
+author: Yuanyuan Fang, Arlene M. Fiore, Larry W. Horowitz, Anand Gnanadesikan, Isaac
+  M. Held, Gang Chen, Gabriel Vecchi and Hiram Levy
+venue: Journal of Geophysical Research
+venue_cit: <i>Journal of Geophysical Research</i>, 116, D18303, doi:10.1029/2011JD015642.
+recommended_citation: 'Yuanyuan Fang, Arlene M. Fiore, Larry W. Horowitz, Anand Gnanadesikan,
+  Isaac M. Held, Gang Chen, Gabriel Vecchi and Hiram Levy, 2011: The impacts of changing
+  transport and precipitation on pollutant distributions in a future climate, <i>Journal
+  of Geophysical Research</i>, 116, D18303, doi:10.1029/2011JD015642.'
+paper_url: http://doi.wiley.com/10.1029/2011JD015642
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# The impacts of changing transport and precipitation on pollutant distributions in a future climate
+
+*Published in Journal of Geophysical Research, 2011*
+
+**Recommended citation:** Yuanyuan Fang, Arlene M. Fiore, Larry W. Horowitz, Anand Gnanadesikan, Isaac M. Held, Gang Chen, Gabriel Vecchi and Hiram Levy, 2011: The impacts of changing transport and precipitation on pollutant distributions in a future climate, <i>Journal of Geophysical Research</i>, 116, D18303, doi:10.1029/2011JD015642.
+
+[Download paper](http://doi.wiley.com/10.1029/2011JD015642){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,37 @@
+---
+title: Formation and maintenance mechanisms of the Pacific-Japan pattern as an intraseasonal
+  variability mode
+pagetitle: 2021-7-1-Sun2021 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2021
+author: Yuexiang Sun, Gang Chen and Benkui Tan
+venue: Climate Dynamics
+venue_cit: <i>Climate Dynamics</i>, 1, doi:10.1007/s00382-021-05851-4.
+recommended_citation: 'Yuexiang Sun, Gang Chen and Benkui Tan, 2021: Formation and
+  maintenance mechanisms of the Pacific-Japan pattern as an intraseasonal variability
+  mode, <i>Climate Dynamics</i>, 1, doi:10.1007/s00382-021-05851-4.'
+paper_url: https://doi.org/10.1007/s00382-021-05851-4 https://link.springer.com/10.1007/s00382-021-05851-4
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Formation and maintenance mechanisms of the Pacific-Japan pattern as an intraseasonal variability mode
+
+*Published in Climate Dynamics, 2021*
+
+**Recommended citation:** Yuexiang Sun, Gang Chen and Benkui Tan, 2021: Formation and maintenance mechanisms of the Pacific-Japan pattern as an intraseasonal variability mode, <i>Climate Dynamics</i>, 1, doi:10.1007/s00382-021-05851-4.
+
+[Download paper](https://doi.org/10.1007/s00382-021-05851-4 https://link.springer.com/10.1007/s00382-021-05851-4){target="_blank"}
+
+:::
+
+:::

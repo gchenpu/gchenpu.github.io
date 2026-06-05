@@ -1,0 +1,53 @@
+---
+title: Benchmarking the Dynamic Modes of Stratosphere-Troposphere Coupling in Northern
+  Annular Modes (NAM) in CMIP6 Models
+pagetitle: 2026-2-1-Chen2026 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2026
+author: Gang Chen and Xiuyuan Ding
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 53, e2025GL121278, doi:10.1029/2025GL121278.
+recommended_citation: 'Gang Chen and Xiuyuan Ding, 2026: Benchmarking the Dynamic
+  Modes of Stratosphere-Troposphere Coupling in Northern Annular Modes (NAM) in CMIP6
+  Models, <i>Geophysical Research Letters</i>, 53, e2025GL121278, doi:10.1029/2025GL121278.'
+paper_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL121278
+abstract: The downward influence of extreme stratospheric events is typically described
+  by the evolution of the Northern Annular Mode (NAM) across atmospheric levels. However,
+  the dynamics and uncertainty in vertical coupling are not fully resolved. By applying
+  the linear inverse model (LIM) to daily, multi-level NAM indices from reanalysis
+  and CMIP6 models, we show that the leading eigenmode of NAM displays a deep structure
+  extending from the stratosphere to the surface, with an e-folding timescale of about
+  30 days in reanalysis data. This stratospheric mode captures the downward propagation
+  of NAM anomalies during weak polar vortex events, further supported by the LIM simulations
+  forced by white noise. Analysis of inter-model spread suggests that the LIM-based
+  estimates can reduce the uncertainty in the surface response to stratospheric extreme
+  events by more than 50%. These findings provide dynamic insights into stratosphere-troposphere
+  coupling of NAM and its representations in climate models.
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Benchmarking the Dynamic Modes of Stratosphere-Troposphere Coupling in Northern Annular Modes (NAM) in CMIP6 Models
+
+*Published in Geophysical Research Letters, 2026*
+
+**Recommended citation:** Gang Chen and Xiuyuan Ding, 2026: Benchmarking the Dynamic Modes of Stratosphere-Troposphere Coupling in Northern Annular Modes (NAM) in CMIP6 Models, <i>Geophysical Research Letters</i>, 53, e2025GL121278, doi:10.1029/2025GL121278.
+
+## Abstract
+
+The downward influence of extreme stratospheric events is typically described by the evolution of the Northern Annular Mode (NAM) across atmospheric levels. However, the dynamics and uncertainty in vertical coupling are not fully resolved. By applying the linear inverse model (LIM) to daily, multi-level NAM indices from reanalysis and CMIP6 models, we show that the leading eigenmode of NAM displays a deep structure extending from the stratosphere to the surface, with an e-folding timescale of about 30 days in reanalysis data. This stratospheric mode captures the downward propagation of NAM anomalies during weak polar vortex events, further supported by the LIM simulations forced by white noise. Analysis of inter-model spread suggests that the LIM-based estimates can reduce the uncertainty in the surface response to stratospheric extreme events by more than 50%. These findings provide dynamic insights into stratosphere-troposphere coupling of NAM and its representations in climate models.
+
+[Download paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL121278){target="_blank"}
+
+:::
+
+:::

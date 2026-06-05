@@ -1,0 +1,37 @@
+---
+title: Local finite-amplitude wave activity as an objective diagnostic of midlatitude
+  extreme weather
+pagetitle: 2015-12-1-Chen2015 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2015
+author: Gang Chen, Jian Lu, D. Alex Burrows and L. Ruby Leung
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 42, 10,952--10,960, doi:10.1002/2015GL066959.
+recommended_citation: 'Gang Chen, Jian Lu, D. Alex Burrows and L. Ruby Leung, 2015:
+  Local finite-amplitude wave activity as an objective diagnostic of midlatitude extreme
+  weather, <i>Geophysical Research Letters</i>, 42, 10,952--10,960, doi:10.1002/2015GL066959.'
+paper_url: http://doi.wiley.com/10.1002/2015GL066959
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Local finite-amplitude wave activity as an objective diagnostic of midlatitude extreme weather
+
+*Published in Geophysical Research Letters, 2015*
+
+**Recommended citation:** Gang Chen, Jian Lu, D. Alex Burrows and L. Ruby Leung, 2015: Local finite-amplitude wave activity as an objective diagnostic of midlatitude extreme weather, <i>Geophysical Research Letters</i>, 42, 10,952--10,960, doi:10.1002/2015GL066959.
+
+[Download paper](http://doi.wiley.com/10.1002/2015GL066959){target="_blank"}
+
+:::
+
+:::

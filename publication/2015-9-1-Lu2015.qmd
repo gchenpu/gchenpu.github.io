@@ -1,0 +1,37 @@
+---
+title: Toward the Dynamical Convergence on the Jet Stream in Aquaplanet AGCMs
+pagetitle: 2015-9-1-Lu2015 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2015
+author: Jian Lu, Gang Chen, L. Ruby Leung, D. Alex Burrows, Qing Yang, Koichi Sakaguchi
+  and Samson Hagos
+venue: Journal of Climate
+venue_cit: <i>Journal of Climate</i>, 28, 6763--6782, doi:10.1175/JCLI-D-14-00761.1.
+recommended_citation: 'Jian Lu, Gang Chen, L. Ruby Leung, D. Alex Burrows, Qing Yang,
+  Koichi Sakaguchi and Samson Hagos, 2015: Toward the Dynamical Convergence on the
+  Jet Stream in Aquaplanet AGCMs, <i>Journal of Climate</i>, 28, 6763--6782, doi:10.1175/JCLI-D-14-00761.1.'
+paper_url: http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-14-00761.1
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Toward the Dynamical Convergence on the Jet Stream in Aquaplanet AGCMs
+
+*Published in Journal of Climate, 2015*
+
+**Recommended citation:** Jian Lu, Gang Chen, L. Ruby Leung, D. Alex Burrows, Qing Yang, Koichi Sakaguchi and Samson Hagos, 2015: Toward the Dynamical Convergence on the Jet Stream in Aquaplanet AGCMs, <i>Journal of Climate</i>, 28, 6763--6782, doi:10.1175/JCLI-D-14-00761.1.
+
+[Download paper](http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-14-00761.1){target="_blank"}
+
+:::
+
+:::

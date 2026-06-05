@@ -1,0 +1,36 @@
+---
+title: Poleward Shift of Atmospheric Rivers in the Southern Hemisphere in Recent Decades
+pagetitle: 2020-11-1-Ma2020a - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2020
+author: Weiming Ma, Gang Chen and Bin Guan
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 47, doi:10.1029/2020GL089934.
+recommended_citation: 'Weiming Ma, Gang Chen and Bin Guan, 2020: Poleward Shift of
+  Atmospheric Rivers in the Southern Hemisphere in Recent Decades, <i>Geophysical
+  Research Letters</i>, 47, doi:10.1029/2020GL089934.'
+paper_url: https://onlinelibrary.wiley.com/doi/10.1029/2020GL089934
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Poleward Shift of Atmospheric Rivers in the Southern Hemisphere in Recent Decades
+
+*Published in Geophysical Research Letters, 2020*
+
+**Recommended citation:** Weiming Ma, Gang Chen and Bin Guan, 2020: Poleward Shift of Atmospheric Rivers in the Southern Hemisphere in Recent Decades, <i>Geophysical Research Letters</i>, 47, doi:10.1029/2020GL089934.
+
+[Download paper](https://onlinelibrary.wiley.com/doi/10.1029/2020GL089934){target="_blank"}
+
+:::
+
+:::

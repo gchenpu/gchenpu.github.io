@@ -1,0 +1,38 @@
+---
+# title: "Curriculum Vitae"
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+## Education
+
+- Princeton University, Atmospheric and Oceanic Sciences Program, Ph.D., 2002–2007
+- Peking University, Dept. of Atmospheric Science, B.S., 1998–2002
+
+## Work Experience
+
+- UCLA, Dept. of Atmospheric and Oceanic Sciences, Professor, 2019–present
+- UCLA, Dept. of Atmospheric and Oceanic Sciences, Associate Professor, 2016–2019
+- Cornell University, Dept. of Earth and Atmospheric Sciences, Associate Professor, 2015–2016
+- Cornell University, Dept. of Earth and Atmospheric Sciences, Assistant Professor, 2009–2015
+- MIT, Program in Atmospheres, Oceans and Climate, NOAA C&GC Postdoctoral Fellow, 2007–2009
+
+<!-- ## Selected Honors & Awards
+
+*(To be filled in)* -->
+
+## Professional Service
+
+- Associate Editor (2022-2025) and Editor (10/2025-present) of [*Journal of Geophysical Research: Atmospheres*](https://agupubs.onlinelibrary.wiley.com/hub/journal/21698996/editorial-board)
+- Editor (2024-present) of [*Journal of the Atmospheric Sciences*](https://www.ametsoc.org/ams/publications/journals/journal-of-the-atmospheric-sciences/)
+
+
+:::
+
+:::

@@ -1,0 +1,37 @@
+---
+title: Lagrangian Analysis of the Northern Stratospheric Polar Vortex Split in April
+  2020
+pagetitle: 2021-8-1-Curbelo2021 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2021
+author: Jezabel Curbelo, Gang Chen and Carlos Roberto Mechoso
+venue: Geophysical Research Letters
+venue_cit: <i>Geophysical Research Letters</i>, 48, doi:10.1029/2021GL093874.
+recommended_citation: 'Jezabel Curbelo, Gang Chen and Carlos Roberto Mechoso, 2021:
+  Lagrangian Analysis of the Northern Stratospheric Polar Vortex Split in April 2020,
+  <i>Geophysical Research Letters</i>, 48, doi:10.1029/2021GL093874.'
+paper_url: https://onlinelibrary.wiley.com/doi/10.1029/2021GL093874
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Lagrangian Analysis of the Northern Stratospheric Polar Vortex Split in April 2020
+
+*Published in Geophysical Research Letters, 2021*
+
+**Recommended citation:** Jezabel Curbelo, Gang Chen and Carlos Roberto Mechoso, 2021: Lagrangian Analysis of the Northern Stratospheric Polar Vortex Split in April 2020, <i>Geophysical Research Letters</i>, 48, doi:10.1029/2021GL093874.
+
+[Download paper](https://onlinelibrary.wiley.com/doi/10.1029/2021GL093874){target="_blank"}
+
+:::
+
+:::

@@ -1,0 +1,36 @@
+---
+title: Human-Induced Changes in Extreme Cold Surges across the Northern Hemisphere
+pagetitle: 2025-8-1-Nie2025 - Gang Chen
+body-classes: publication-page
+format:
+  html:
+    title-block-style: none
+year: 2025
+author: Yu Nie, Ying Sun, Xuebin Zhang and Gang Chen
+venue: Nature Communications
+venue_cit: <i>Nature Communications</i>, 16, 8086, doi:10.1038/s41467-025-62576-2.
+recommended_citation: 'Yu Nie, Ying Sun, Xuebin Zhang and Gang Chen, 2025: Human-Induced
+  Changes in Extreme Cold Surges across the Northern Hemisphere, <i>Nature Communications</i>,
+  16, 8086, doi:10.1038/s41467-025-62576-2.'
+paper_url: https://www.nature.com/articles/s41467-025-62576-2
+---
+
+::: {.page-with-sidebar}
+
+::: {.sidebar-col}
+{{< include /_author-profile.qmd >}}
+:::
+
+::: {.content-col}
+
+# Human-Induced Changes in Extreme Cold Surges across the Northern Hemisphere
+
+*Published in Nature Communications, 2025*
+
+**Recommended citation:** Yu Nie, Ying Sun, Xuebin Zhang and Gang Chen, 2025: Human-Induced Changes in Extreme Cold Surges across the Northern Hemisphere, <i>Nature Communications</i>, 16, 8086, doi:10.1038/s41467-025-62576-2.
+
+[Download paper](https://www.nature.com/articles/s41467-025-62576-2){target="_blank"}
+
+:::
+
+:::
