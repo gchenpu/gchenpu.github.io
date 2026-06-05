@@ -1,15 +1,11 @@
 project:
   type: website
   output-dir: _site
-  # render:
-  #   - "**/*.qmd"
-  #   - "**/*.md"
-  #   - "!**/*.ipynb"
 
 website:
   title: "Gang Chen"
   description: "Professor in the Department of Atmospheric and Oceanic Sciences (AOS) at UCLA"
-  site-url: https://gchenpu.github.io
+  site-url: https://www.gchenpu.com
   favicon: images/site-logo.png
 
   navbar:
@@ -22,13 +18,6 @@ website:
         href: cv.qmd
       - text: "Code"
         href: code.qmd
-    # right:
-    #   - icon: github
-    #     href: https://github.com/gchenpu
-    #     aria-label: GitHub
-    #   - icon: twitter
-    #     href: https://twitter.com/gchenpu
-    #     aria-label: Twitter
 
   page-footer:
     left: "© {{< year >}} Gang Chen"
