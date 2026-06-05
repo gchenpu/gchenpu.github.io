@@ -1,8 +1,16 @@
 /_site/
+
 /.quarto/
 *.quarto_ipynb
 **/*.quarto_ipynb
+
 **/__pycache__/
 *.pyc
 /python_scripts/
+
 /.luarc.json
+
+_author-profile.html
+_author-profile_files/
+
+index_files/
