@@ -17,14 +17,6 @@ concurrency:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    # Workflow summary:
-    # 1. Checkout repository
-    # 2. Setup GitHub Pages
-    # 3. Setup Python and install Jupyter
-    # 4. Install Quarto
-    # 5. Render site (`quarto render`)
-    # 6. Upload `_site` artifact
-    # 7. Deploy to GitHub Pages
 
     steps:
       - name: Checkout
