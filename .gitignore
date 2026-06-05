@@ -1,5 +1,8 @@
 /_site/
 /.quarto/
-*.quarto_ipynb
+*.quarto_ipynb*
+**/*.quarto_ipynb*
+__pycache__
+/.luarc.json
+
 **/*.quarto_ipynb
-**/*_out.ipynb
