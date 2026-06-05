@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import calendar
+import difflib
 import os
 import re
 import shutil
@@ -218,7 +219,84 @@ class PublicationGenerator:
         with open(os.path.join(self.out_dir, f"{slug}.qmd"), "w", encoding="utf-8") as f:
             f.write(thesis_qmd)
 
-    def build_pages(self, include_thesis: bool = True, copy_thesis_pdf: bool = True) -> int:
+    def _front_matter(self, content: str) -> Dict:
+        m = re.match(r"^---\n(.*?)\n---", content, re.DOTALL)
+        if not m:
+            return {}
+        fm = yaml.safe_load(m.group(1))
+        if isinstance(fm, dict):
+            return fm
+        return {}
+
+    def _color(self, text: str, code: str) -> str:
+        if os.getenv("NO_COLOR"):
+            return text
+        return f"\033[{code}m{text}\033[0m"
+
+    def _highlight_citation_diffs(self, before: str, after: str) -> Tuple[str, str]:
+        matcher = difflib.SequenceMatcher(a=before, b=after)
+        before_parts = []
+        after_parts = []
+
+        for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+            before_chunk = before[i1:i2]
+            after_chunk = after[j1:j2]
+            if tag == "equal":
+                before_parts.append(before_chunk)
+                after_parts.append(after_chunk)
+            else:
+                if before_chunk:
+                    before_parts.append(self._color(before_chunk, "31"))
+                if after_chunk:
+                    after_parts.append(self._color(after_chunk, "32"))
+
+        return "".join(before_parts), "".join(after_parts)
+
+    def _report_citation_diff(self, slug: str, existing: str, content: str) -> None:
+        existing_citation = self._front_matter(existing).get("recommended_citation", "")
+        new_citation = self._front_matter(content).get("recommended_citation", "")
+        if existing_citation != new_citation:
+            print(self._color(f"[diff] {slug}", "33"))
+            before_out, after_out = self._highlight_citation_diffs(existing_citation, new_citation)
+            print(f"  existing: {before_out}")
+            print(f"  new:  {after_out}")
+
+    def _write_or_report_qmd(
+        self,
+        slug: str,
+        file_path: str,
+        content: str,
+        overwrite_existing: bool,
+    ) -> None:
+        existing = None
+        if os.path.exists(file_path):
+            with open(file_path, encoding="utf-8") as f:
+                existing = f.read()
+            if existing == content:
+                return
+
+        if overwrite_existing:
+            if existing is not None:
+                self._report_citation_diff(slug, existing, content)
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(content)
+                print(self._color(f"[overwrite] {slug}", "31"))
+            return
+
+        if existing is None:
+            with open(file_path, "w", encoding="utf-8") as f:
+                f.write(content)
+            print(self._color(f"[new] {slug}", "31"))
+            return
+
+        self._report_citation_diff(slug, existing, content)
+
+    def build_pages(
+        self,
+        include_thesis: bool = True,
+        copy_thesis_pdf: bool = True,
+        overwrite_existing: bool = True,
+    ) -> int:
         os.makedirs(self.out_dir, exist_ok=True)
         slides_map = self._slides_map()
 
@@ -246,12 +324,27 @@ class PublicationGenerator:
                 slides_url,
             )
 
-            with open(os.path.join(self.out_dir, f"{slug}.qmd"), "w", encoding="utf-8") as f:
-                f.write(qmd_content)
+            qmd_path = os.path.join(self.out_dir, f"{slug}.qmd")
+            self._write_or_report_qmd(slug, qmd_path, qmd_content, overwrite_existing)
             count += 1
 
         if include_thesis:
-            self._write_thesis_page()
+            slug = "2007-7-1-Chen2007"
+            title = "Mechanisms that control the latitude of jet streams and surface westerlies"
+            thesis_qmd = self._make_qmd(
+                slug=slug,
+                title=title,
+                year=2007,
+                author_list="Chen, Gang",
+                journal="Ph.D. thesis, Princeton University",
+                cit_journal="Ph.D. thesis, Princeton University, 153 pp.",
+                citation=f"Chen, Gang, 2007: {title}, Ph.D. thesis, Princeton University, 153 pp.",
+                paper_url="/files/thesis.pdf",
+                excerpt="",
+                slides_url="",
+            )
+            thesis_qmd_path = os.path.join(self.out_dir, f"{slug}.qmd")
+            self._write_or_report_qmd(slug, thesis_qmd_path, thesis_qmd, overwrite_existing)
 
         if copy_thesis_pdf and os.path.exists("thesis.pdf"):
             thesis_dst = "../files/thesis.pdf"

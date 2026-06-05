@@ -1,12 +1,10 @@
 project:
   type: website
   output-dir: _site
-  # render:
+  render:
   #   - "**/*.qmd"
   #   - "**/*.md"
-  #   - "!**/*.ipynb"
-  # resources:
-  #   - "**/*.ipynb"
+    - "!**/*.ipynb"
 
 website:
   title: "Gang Chen"
