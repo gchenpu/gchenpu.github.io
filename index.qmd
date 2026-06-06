@@ -3,6 +3,8 @@
 # pagetitle: "Gang Chen at UCLA"
 ---
 
+![](images/storm.png){.hero-banner}
+
 ::: {.page-with-sidebar}
 
 ::: {.sidebar-col}
@@ -11,14 +13,11 @@
 
 ::: {.content-col}
 
-The focus of my research group is the fundamental dynamics in atmospheric circulation and chemical transport. Through a combination of theory and numerical modeling, we develop toolboxes to understand the global circulation of the atmosphere, from tropical Hadley cell circulations to extratropical storm systems, from tropospheric extreme weather to stratospheric polar vortex breakdown events, and from transport of water vapor to stratosphere-troposphere exchange of ozone. These processes are instrumental to our understanding of weather extremes (e.g. winter blizzards or heat waves), hydrological extremes (e.g., drought or flooding), or extreme air pollution. Our research can be categorized in two interrelated themes.
+My research focuses on atmospheric dynamics and climate, with an emphasis on the fundamental processes in large-scale atmospheric circulation and transport that shape weather and climate extremes. Through a combination of theory and numerical modeling, my group develops process-based insights into global atmospheric circulation in a changing climate. By bridging climate theory, numerical modeling, and observations, we improve confidence in both historical simulations and future projections of global and regional circulation patterns and associated extreme events.
 
-- Global atmospheric circulation and regional weather extremes
-- Transport of atmospheric moisture and chemical species
+The first major thrust of my research is to advance understanding of fluid dynamics and transport in the extratropical circulation. Of particular interest are the westerlies, which extend from the surface to the stratosphere and play a key role in the dynamics, predictability, and chemistry of these regions. To understand what dynamical mechanisms drive the latitudinal shifts of jet streams, we have examined the sensitivities of midlatitude westerlies to climate forcing and the processes driving their latitudinal variations ([Chen and Held 2007](publication/2007-11-1-Chen2007b.qmd); [Sun et al. 2013](publication/2013-8-1-Sun2013.qmd); [Chen et al. 2020](publication/2020-2-1-Chen2020.qmd)).  We have also investigated how changes in jet streams affect midlatitude circulation waviness and associated weather extremes under climate change ([Chen et al. 2015](publication/2015-12-1-Chen2015.qmd); [Chen et al. 2022](publication/2022-3-1-Chen2021.qmd); [Nie et al. 2023](publication/2023-3-1-Nie2023.qmd)). More fundamentally, my work explores how atmospheric dynamics and transport can be understood in the framework of eddy diffusivity theory, thereby integrating the two perspectives from Rossby wave dynamics and eddy diffusivity theory ([Chen and Plumb 2014](publication/2014-9-1-Chen2014.qmd); [Yang et al. 2016](publication/2016-4-1-Yang2015.qmd)).
 
-<!-- For example, transport and mixing near the tropopause (~10 km above the ground) can be illustrated in the animation of Ertel's Potential Vorticity (left) and O3 mixing ratio (right):
-
-![](images/PV_O3.gif){.responsive} -->
+The second, more recent theme examines how large-scale atmospheric circulation shapes weather extremes, such as cold snaps, heat waves, atmospheric rivers, and heavy precipitation events that exert disproportionate socioeconomic impacts. For example, we have investigated mechanisms that link to extreme stratospheric events to extreme cold events over North America, such as the February 2021 cold wave that disrupted the Texas energy infrastructure ([Ding et al. 2022](publication/2022-3-1-Ding2022.qmd); [Ding et al. 2023](publication/2023-5-1-Ding2023.qmd)). We have also studied the mechanisms of moisture intrusions into polar regions in a warming climate ([Ma et al. 2020](publication/2020-11-1-Ma2020a.qmd); [Zhang et al. 2023](publication/2023-2-1-Zhang2023.qmd)) and developed a conditional mean framework linking precipitation statistics to the moisture budget ([Chen et al. 2018](publication/2018-12-1-Chen2018a.qmd); [Norris et al. 2018](publication/2018-12-1-Norris2018.qmd)).
 
 ## Recent Publications
 
