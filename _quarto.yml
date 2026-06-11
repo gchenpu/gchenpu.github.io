@@ -33,3 +33,4 @@ format:
     page-layout: full
     link-external-icon: false
     link-external-newwindow: true
+    include-after-body: _statcounter.html
