@@ -15,3 +15,15 @@ _author-profile_files/
 
 index_files/
 **/*.quarto_ipynb
+
+# Launcher-owned paths in this agent's control plane. `lock` is an flock and
+# `running.md` records a pid, host and start time: machine-local, and meaningless in a
+# clone. Committing `running.md` makes every clone report a crashed pass (S004) forever.
+# Everything else under .iorisphere/ is this agent's durable memory and travels.
+.iorisphere/lock
+.iorisphere/running.md
+
+# Tool-specific instruction files (Claude Code, Cline, GitHub Copilot)
+CLAUDE.md
+.clinerules/
+.github/copilot-instructions.md
