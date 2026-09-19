@@ -16,12 +16,13 @@ _author-profile_files/
 index_files/
 **/*.quarto_ipynb
 
-# Launcher-owned paths in this agent's control plane. `lock` is an flock and
-# `running.md` records a pid, host and start time: machine-local, and meaningless in a
-# clone. Committing `running.md` makes every clone report a crashed pass (S004) forever.
-# Everything else under .iorisphere/ is this agent's durable memory and travels.
-.iorisphere/lock
-.iorisphere/running.md
+# IORISphere agent scaffolding. Excluded by choice: this repo publishes a public
+# website, and the agent's control plane is not part of the site. Consequence to be
+# aware of -- the handoffs under .iorisphere/handoffs/ are the agent's durable memory,
+# so this machine now holds the only copy and they will not survive a fresh clone.
+AGENTS.md
+.iorisphere/
+.github/workflows/iorisphere.yml
 
 # Tool-specific instruction files (Claude Code, Cline, GitHub Copilot)
 CLAUDE.md
