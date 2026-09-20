@@ -16,15 +16,10 @@ _author-profile_files/
 index_files/
 **/*.quarto_ipynb
 
-# IORISphere agent scaffolding. Excluded by choice: this repo publishes a public
-# website, and the agent's control plane is not part of the site. Consequence to be
-# aware of -- the handoffs under .iorisphere/handoffs/ are the agent's durable memory,
-# so this machine now holds the only copy and they will not survive a fresh clone.
+# IORISphere
 AGENTS.md
 .iorisphere/
 .github/workflows/iorisphere.yml
-
-# Tool-specific instruction files (Claude Code, Cline, GitHub Copilot)
 CLAUDE.md
 .clinerules/
 .github/copilot-instructions.md
