@@ -23,3 +23,11 @@ AGENTS.md
 CLAUDE.md
 .clinerules/
 .github/copilot-instructions.md
+
+# Agent records: always tracked, even where a rule above excludes everything.
+!**/.iorisphere/**
+# Records no longer needed: untracked, never read, deletable.
+**/.iorisphere/archive/
+# A running pass's transient files.
+**/.iorisphere/lock
+**/.iorisphere/running.md
