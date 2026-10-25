@@ -16,13 +16,11 @@ _author-profile_files/
 index_files/
 **/*.quarto_ipynb
 
-# IORISphere
+# Agent instruction files and records: on this machine and its backup, not in this repository.
 AGENTS.md
-.iorisphere/
-.github/workflows/iorisphere.yml
 CLAUDE.md
-.clinerules/
 .github/copilot-instructions.md
+.iorisphere/
 
 # Agent records: always tracked, even where a rule above excludes everything.
 !**/.iorisphere/**
