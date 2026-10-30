@@ -1,3 +1,31 @@
+# >>> generated files: kept out of git and of the backup (managed block)
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+node_modules
+_build
+_site
+_freeze
+.quarto
+*.aux
+*.synctex.gz
+~$*
+.~lock.*
+.DS_Store
+.ipynb_checkpoints
+*.egg-info
+.ruff_cache
+.mypy_cache
+.coverage
+htmlcov
+.tox
+.nox
+**/.iorisphere/lock
+**/.iorisphere/running.md
+# <<< generated files
+
 /_site/
 
 /.quarto/
@@ -16,16 +44,44 @@ _author-profile_files/
 index_files/
 **/*.quarto_ipynb
 
-# Agent instruction files and records: on this machine and its backup, not in this repository.
-AGENTS.md
-CLAUDE.md
-.github/copilot-instructions.md
-.iorisphere/
+# >>> always last: nested repositories, agent records, secrets (managed block)
+# Agent markers and records: kept elsewhere, never in this repository.
+**/AGENTS.md
+**/CLAUDE.md
+**/.github/copilot-instructions.md
+**/.iorisphere/
+# Secrets: never in a repository.
+.env
+.env.*
+.envrc
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.kdbx
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+.ssh
+credentials*
+*credentials*.json
+.git-credentials
+*secret*.json
+*service-account*.json
+token.json
+*.token
+.netrc
+.pgpass
+.npmrc
+.pypirc
+.Renviron
+**/.docker/config.json
+.aws
+.gnupg
+# <<< always last
 
-# Agent records: always tracked, even where a rule above excludes everything.
-!**/.iorisphere/**
-# Records no longer needed: untracked, never read, deletable.
-**/.iorisphere/archive/
-# A running pass's transient files.
-**/.iorisphere/lock
-**/.iorisphere/running.md
+# >>> backup: folder — ignored files kept in the backup folder (yours to edit)
+# <<< backup: folder
