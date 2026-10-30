@@ -24,6 +24,10 @@ htmlcov
 .nox
 **/.iorisphere/lock
 **/.iorisphere/running.md
+*.fdb_latexmk
+*.fls
+*.dvi
+*.quarto_ipynb*
 # <<< generated files
 
 /_site/
