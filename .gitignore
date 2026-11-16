@@ -28,6 +28,7 @@ htmlcov
 *.fls
 *.dvi
 *.quarto_ipynb*
+*:Zone.Identifier
 # <<< generated files
 
 /_site/
