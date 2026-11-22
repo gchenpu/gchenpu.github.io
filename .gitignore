@@ -14,6 +14,7 @@ _freeze
 ~$*
 .~lock.*
 .DS_Store
+*:Zone.Identifier
 .ipynb_checkpoints
 *.egg-info
 .ruff_cache
@@ -28,7 +29,6 @@ htmlcov
 *.fls
 *.dvi
 *.quarto_ipynb*
-*:Zone.Identifier
 # <<< generated files
 
 /_site/
