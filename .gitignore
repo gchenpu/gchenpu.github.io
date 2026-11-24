@@ -9,8 +9,12 @@ _build
 _site
 _freeze
 .quarto
+*.quarto_ipynb*
 *.aux
 *.synctex.gz
+*.fdb_latexmk
+*.fls
+*.dvi
 ~$*
 .~lock.*
 .DS_Store
@@ -25,10 +29,6 @@ htmlcov
 .nox
 **/.iorisphere/lock
 **/.iorisphere/running.md
-*.fdb_latexmk
-*.fls
-*.dvi
-*.quarto_ipynb*
 # <<< generated files
 
 /_site/
