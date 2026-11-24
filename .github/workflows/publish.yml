@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+    # Housekeeping commits that change nothing on the site do not rebuild it.
+    paths-ignore:
+      - ".gitignore"
+      - "AGENTS.md"
+      - "CLAUDE.md"
+      - ".github/copilot-instructions.md"
+      - ".iorisphere/**"
 
 permissions:
   contents: read
@@ -15,7 +22,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -44,6 +51,12 @@ jobs:
         with:
           path: _site
 
+  # A job of its own, so the artifact is settled before the deploy asks for it.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
